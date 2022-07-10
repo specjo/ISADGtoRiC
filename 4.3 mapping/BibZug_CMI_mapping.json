@@ -1,0 +1,871 @@
+{
+  "baseIRI": "http://example.com/base/",
+  "namespaces": {
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "wd": "https://www.wikidata.org/wiki/"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadIdentifier"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "signature",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "language": "raw"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "localHolderRefCode"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "E06_title",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "E06_title",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "carrierExtent"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "carrierExtent",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasRepresentationType"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "representationType",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "instantiationExtent"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "extent",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadHolder"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "wd",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "Q856475"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "E06_id",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rico",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "columnName": "E06_type",
+            "source": "column"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadIdentifier"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "id",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "language": "raw"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "localSoftwareID"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "recordResourceToInstantiationRelationHasTarget"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "E06_id",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasRecordSetType"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "ric-rst",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "levelOfDescription",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "isPartOf"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "superordinate",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "title",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "title",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadPublisher"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "publisher_ID",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "scopeAndContent"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "scopeAndContent",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasCreator"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "creator_id",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "isAssociatedWithPlace"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "E22_place_Id",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "creationDate"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "creationDate",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "date"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "contentType"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "contentType",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "conditionsOfAccess"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "source": "constant",
+                "constant": "0"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadHolder"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "wd",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "Q856475"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "E03_id",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rico",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "columnName": "E03_type",
+            "source": "column"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "publisher",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "publisher",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "publisher_ID",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rico",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "columnName": "publisherEntityType",
+            "source": "column"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "creator",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "creator",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "creator_id",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rico",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "columnName": "creatorType",
+            "source": "column"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "E22_Place_Name",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "E22_Place_Name",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "E22_place_Id",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rico",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Place"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "source": "constant",
+                "constant": "\"Bibliothek Zug\""
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "wd",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "source": "constant",
+          "constant": "Q856475"
+        }
+      },
+      "typeMappings": []
+    }
+  ]
+}
