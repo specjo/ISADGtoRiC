@@ -1,0 +1,285 @@
+{
+  "baseIRI": "http://example.com/base/",
+  "namespaces": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadIdentifier"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "invnr",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadName"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "title",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rdfs",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "label"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "title",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "creationDate"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "creationDate",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "date"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "CarrierExtent"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "carrierExtent",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "physicalCharacteristics"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "inscription",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasProductionTechnique"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "productionTechnique",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "qualityOfRepresentation"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "quality",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "de"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasOrHadHolder"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "language": "raw"
+              },
+              "valueSource": {
+                "columnName": "rico:OwnershipRelation",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "E06_001_invnr",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "rico",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "columnName": "rdfs:type",
+            "source": "column"
+          }
+        }
+      ]
+    }
+  ]
+}
