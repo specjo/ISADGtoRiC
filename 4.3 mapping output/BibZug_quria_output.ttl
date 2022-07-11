@@ -1,0 +1,2542 @@
+@base <http://example.com/base/> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<E03_105138280099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105138280099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105138280099_001>;
+  rdfs:label "Bürgerspital Zug : alter Chirurgietrakt";
+  rico:hasOrHadName "Bürgerspital Zug : alter Chirurgietrakt";
+  rico:creationDate "1980"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q14274;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105138280099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 369"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Bürgerspital Zug : alter Chirurgietrakt";
+  rico:hasOrHadName "Instantiation - Bürgerspital Zug : alter Chirurgietrakt";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Krankenhausinstitut> .
+
+wd:Q856475 a rico:CorporateBody;
+  rdfs:label "Bibliothek Zug", "Stadtbibliothek";
+  rico:hasOrHadName "Stadtbibliothek" .
+
+<http://example.org/base/Krankenhausinstitut> a rico:CorporateBody;
+  rdfs:label "Krankenhausinstitut";
+  rico:hasOrHadName "Krankenhausinstitut" .
+
+wd:Q14274 a rico:Place;
+  rdfs:label "Aarau";
+  rico:hasOrHadName "Aarau" .
+
+<E03_103048954099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "103048954099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_103048954099_001>;
+  rdfs:label "Chönd Sie sich erinnere? : ehemalige Angestellte der Metallwarenfabrik Zug erzählen von ihrer Arbeit (1920 - 1975) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:hasOrHadName "Chönd Sie sich erinnere? : ehemalige Angestellte der Metallwarenfabrik Zug erzählen von ihrer Arbeit (1920 - 1975) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:creationDate "1998"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q64087;
+  rico:contentType <T-Video>;
+  rico:hasOrHadLanguage <Schweizerdeutsch>;
+  rico:hasRepresentationType <Sonstiges%20Material>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_103048954099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TV 123"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Chönd Sie sich erinnere? : ehemalige Angestellte der Metallwarenfabrik Zug erzählen von ihrer Arbeit (1920 - 1975) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:hasOrHadName "Instantiation - Chönd Sie sich erinnere? : ehemalige Angestellte der Metallwarenfabrik Zug erzählen von ihrer Arbeit (1920 - 1975) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/VAM> .
+
+<http://example.org/base/VAM> a rico:CorporateBody;
+  rdfs:label "VAM";
+  rico:hasOrHadName "VAM" .
+
+wd:Q64087 a rico:Place;
+  rdfs:label "Baar";
+  rico:hasOrHadName "Baar" .
+
+<E03_464914000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "464914000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_464914343628_001>;
+  rdfs:label "Metalli Areal : Fotografien";
+  rico:hasOrHadName "Metalli Areal : Fotografien";
+  rico:hasCreator <http://example.org/base/Baselgia,%20Guido>;
+  rico:creationDate "1991"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q64087;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_464914343628_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.1997"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Metalli Areal : Fotografien";
+  rico:hasOrHadName "Instantiation - Metalli Areal : Fotografien";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Baselgia,%20Guido> .
+
+<http://example.org/base/Baselgia,%20Guido> a rico:Person;
+  rdfs:label "Baselgia, Guido";
+  rico:hasOrHadName "Baselgia, Guido" .
+
+<E03_108224520099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "108224520099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_108224520099_001>;
+  rdfs:label "Operation Crypto : die Schweiz im Dienst von CIA und BND";
+  rico:hasOrHadName "Operation Crypto : die Schweiz im Dienst von CIA und BND";
+  rico:hasCreator wd:Q2145516;
+  rico:creationDate "2020"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q78;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_108224520099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "T 9776"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Operation Crypto : die Schweiz im Dienst von CIA und BND";
+  rico:hasOrHadName "Instantiation - Operation Crypto : die Schweiz im Dienst von CIA und BND";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q1281210 .
+
+wd:Q2145516 a rico:Person;
+  rdfs:label "Strehle, Res";
+  rico:hasOrHadName "Strehle, Res" .
+
+wd:Q1281210 a rico:CorporateBody;
+  rdfs:label "Echtzeit Verlag";
+  rico:hasOrHadName "Echtzeit Verlag" .
+
+wd:Q78 a rico:Place;
+  rdfs:label "Basel ";
+  rico:hasOrHadName "Basel " .
+
+<E03_ZUG00100000466> a rico:RecordSet;
+  rico:hasOrHadIdentifier "ZUG00100000466"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_ZUG00100000466_001>;
+  rdfs:label "Die Wahl von Philipp Etter in den Bundesrat 1934 : Ereignisse, Ideologien, soziales Umfeld";
+  rico:hasOrHadName "Die Wahl von Philipp Etter in den Bundesrat 1934 : Ereignisse, Ideologien, soziales Umfeld";
+  rico:hasCreator <http://example.org/base/Pfister,%20Martin>;
+  rico:creationDate "1995"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q2833;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_ZUG00100000466_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 4290"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Die Wahl von Philipp Etter in den Bundesrat 1934 : Ereignisse, Ideologien, soziales Umfeld";
+  rico:hasOrHadName "Instantiation - Die Wahl von Philipp Etter in den Bundesrat 1934 : Ereignisse, Ideologien, soziales Umfeld";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Martin%20Pfister> .
+
+<http://example.org/base/Pfister,%20Martin> a rico:Person;
+  rdfs:label "Pfister, Martin";
+  rico:hasOrHadName "Pfister, Martin" .
+
+<http://example.org/base/Martin%20Pfister> a rico:CorporateBody;
+  rdfs:label "Martin Pfister";
+  rico:hasOrHadName "Martin Pfister" .
+
+wd:Q2833 a rico:Place;
+  rdfs:label "Freiburg/Waldkirch ";
+  rico:hasOrHadName "Freiburg/Waldkirch " .
+
+<E03_107008493099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "107008493099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_107008493099_001>;
+  rdfs:label "Zug";
+  rico:hasOrHadName "Zug";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1961"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q71;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_107008493099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "Tq 3195"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zug";
+  rico:hasOrHadName "Instantiation - Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Editions%20Générales> .
+
+wd:Q532343 a rico:Person;
+  rdfs:label "Etter, Philipp";
+  rico:hasOrHadName "Etter, Philipp" .
+
+<http://example.org/base/Editions%20Générales> a rico:CorporateBody;
+  rdfs:label "Editions Générales";
+  rico:hasOrHadName "Editions Générales" .
+
+wd:Q71 a rico:Place;
+  rdfs:label "Genf ";
+  rico:hasOrHadName "Genf " .
+
+<E03_105026943099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105026943099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105026943099_001>;
+  rdfs:label "Geistige Landesverteidigung";
+  rico:hasOrHadName "Geistige Landesverteidigung";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1937"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q484512;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105026943099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2534 "^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Geistige Landesverteidigung";
+  rico:hasOrHadName "Instantiation - Geistige Landesverteidigung";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Calendaria> .
+
+<http://example.org/base/Calendaria> a rico:CorporateBody;
+  rdfs:label "Calendaria";
+  rico:hasOrHadName "Calendaria" .
+
+wd:Q484512 a rico:Place;
+  rdfs:label "Immensee ";
+  rico:hasOrHadName "Immensee " .
+
+<E03_108003103099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "108003103099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_108003103099_001>;
+  rdfs:label "Der Bildbestand der Stadt- und Kantonsbibliothek Zug";
+  rico:hasOrHadName "Der Bildbestand der Stadt- und Kantonsbibliothek Zug";
+  rico:hasCreator <http://example.org/base/Pfeiffer,%20Michel>;
+  rico:creationDate "2017"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q1027;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_108003103099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "T 9686"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Bildbestand der Stadt- und Kantonsbibliothek Zug";
+  rico:hasOrHadName "Instantiation - Der Bildbestand der Stadt- und Kantonsbibliothek Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/AV%20Akademikerverlag> .
+
+<http://example.org/base/Pfeiffer,%20Michel> a rico:Person;
+  rdfs:label "Pfeiffer, Michel";
+  rico:hasOrHadName "Pfeiffer, Michel" .
+
+<http://example.org/base/AV%20Akademikerverlag> a rico:CorporateBody;
+  rdfs:label "AV Akademikerverlag";
+  rico:hasOrHadName "AV Akademikerverlag" .
+
+wd:Q1027 a rico:Place;
+  rdfs:label "Mauritius ";
+  rico:hasOrHadName "Mauritius " .
+
+<E03_100616101099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100616101099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100616101099_001>;
+  rdfs:label "Die schweizerische Demokratie";
+  rico:hasOrHadName "Die schweizerische Demokratie";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1934"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68129;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100616101099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 1167"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Die schweizerische Demokratie";
+  rico:hasOrHadName "Instantiation - Die schweizerische Demokratie";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q1638467 .
+
+wd:Q1638467 a rico:CorporateBody;
+  rdfs:label "Walter";
+  rico:hasOrHadName "Walter" .
+
+wd:Q68129 a rico:Place;
+  rdfs:label "Olten ";
+  rico:hasOrHadName "Olten " .
+
+<E03_105022268099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105022268099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105022268099_001>;
+  rdfs:label "Zug in alten Ansichten 2003";
+  rico:hasOrHadName "Zug in alten Ansichten 2003";
+  rico:creationDate "2002"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68129;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105022268099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBf 40"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zug in alten Ansichten 2003";
+  rico:hasOrHadName "Instantiation - Zug in alten Ansichten 2003";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q883522 .
+
+wd:Q883522 a rico:CorporateBody;
+  rdfs:label "Weltbild";
+  rico:hasOrHadName "Weltbild" .
+
+<E03_106255861099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "106255861099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_106255861099_001>;
+  rdfs:label "Der Kanton Zug und seine Fotografen, 1850-2000 : auch ein Stück Kulturgeschichte";
+  rico:hasOrHadName "Der Kanton Zug und seine Fotografen, 1850-2000 : auch ein Stück Kulturgeschichte";
+  rico:hasCreator <http://example.org/base/Steiner,%20Hermann>;
+  rico:creationDate "2000"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q66604;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_106255861099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "Tq 7078"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Kanton Zug und seine Fotografen, 1850-2000 : auch ein Stück Kulturgeschichte";
+  rico:hasOrHadName "Instantiation - Der Kanton Zug und seine Fotografen, 1850-2000 : auch ein Stück Kulturgeschichte";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Zürcher> .
+
+<http://example.org/base/Steiner,%20Hermann> a rico:Person;
+  rdfs:label "Steiner, Hermann";
+  rico:hasOrHadName "Steiner, Hermann" .
+
+<http://example.org/base/Zürcher> a rico:CorporateBody;
+  rdfs:label "Zürcher";
+  rico:hasOrHadName "Zürcher" .
+
+wd:Q66604 a rico:Place;
+  rdfs:label "Rotkreuz ";
+  rico:hasOrHadName "Rotkreuz " .
+
+<E03_105140566099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105140566099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105140566099_001>;
+  rdfs:label "Alte Aufnahmen im Kanton Zug";
+  rico:hasOrHadName "Alte Aufnahmen im Kanton Zug";
+  rico:hasCreator <http://example.org/base/Stocklin,%20Tony>;
+  rico:creationDate "2017"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q66697;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105140566099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "AT 9513"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Alte Aufnahmen im Kanton Zug";
+  rico:hasOrHadName "Instantiation - Alte Aufnahmen im Kanton Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Stocklin> .
+
+<http://example.org/base/Stocklin,%20Tony> a rico:Person;
+  rdfs:label "Stocklin, Tony";
+  rico:hasOrHadName "Stocklin, Tony" .
+
+<http://example.org/base/Stocklin> a rico:Person;
+  rdfs:label "Stocklin";
+  rico:hasOrHadName "Stocklin" .
+
+wd:Q66697 a rico:Place;
+  rdfs:label "Steinhausen ";
+  rico:hasOrHadName "Steinhausen " .
+
+<E03_107977797099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "107977797099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_107977797099_001>;
+  rdfs:label "Alte Aufnahmen im Kanton Zug";
+  rico:hasOrHadName "Alte Aufnahmen im Kanton Zug";
+  rico:hasCreator <http://example.org/base/Stocklin,%20Tony>;
+  rico:creationDate "2017"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q66697;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_107977797099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "T 9513"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Alte Aufnahmen im Kanton Zug";
+  rico:hasOrHadName "Instantiation - Alte Aufnahmen im Kanton Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Stocklin> .
+
+<E03_105034867099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105034867099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105034867099_001>;
+  rdfs:label "Wohnhäuser in Zug, das kantonale Verwaltungsgebäude in Zug, das Sanatorium \"Adelheid\" bei Unter-Aegeri (Kt. Zug), Raumausstattungen";
+  rico:hasOrHadName "Wohnhäuser in Zug, das kantonale Verwaltungsgebäude in Zug, das Sanatorium \"Adelheid\" bei Unter-Aegeri (Kt. Zug), Raumausstattungen";
+  rico:creationDate "1915"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q1022;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105034867099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 2506"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Wohnhäuser in Zug, das kantonale Verwaltungsgebäude in Zug, das Sanatorium \"Adelheid\" bei Unter-Aegeri (Kt. Zug), Raumausstattungen";
+  rico:hasOrHadName "Instantiation - Wohnhäuser in Zug, das kantonale Verwaltungsgebäude in Zug, das Sanatorium \"Adelheid\" bei Unter-Aegeri (Kt. Zug), Raumausstattungen";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Hoffmann> .
+
+<http://example.org/base/Hoffmann> a rico:CorporateBody;
+  rdfs:label "Hoffmann";
+  rico:hasOrHadName "Hoffmann" .
+
+wd:Q1022 a rico:Place;
+  rdfs:label "Stuttgart ";
+  rico:hasOrHadName "Stuttgart " .
+
+<E03_400187400099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400187400099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400187400099_001>;
+  rdfs:label "Zugs erste Fotografin : Jungfer Katharina Weiss (1834-1911)";
+  rico:hasOrHadName "Zugs erste Fotografin : Jungfer Katharina Weiss (1834-1911)";
+  rico:hasCreator <http://example.org/base/Steiner,%20Hermann>;
+  rico:creationDate "2002"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400187400099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 8/147"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zugs erste Fotografin : Jungfer Katharina Weiss (1834-1911)";
+  rico:hasOrHadName "Instantiation - Zugs erste Fotografin : Jungfer Katharina Weiss (1834-1911)";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+wd:Q14848231 a rico:CorporateBody;
+  rdfs:label "Staatsarchiv Zug" .
+
+<E03_242840000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "242840000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_242839713099_001>;
+  rdfs:label "Zug im Bild : Streifzug durch 150 Jahre Zuger Fotografiegeschichte";
+  rico:hasOrHadName "Zug im Bild : Streifzug durch 150 Jahre Zuger Fotografiegeschichte";
+  rico:hasCreator <http://example.org/base/Schürpf,%20Markus>;
+  rico:creationDate "2012"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_242839713099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 297.2012"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zug im Bild : Streifzug durch 150 Jahre Zuger Fotografiegeschichte";
+  rico:hasOrHadName "Instantiation - Zug im Bild : Streifzug durch 150 Jahre Zuger Fotografiegeschichte";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Schürpf,%20Markus> a rico:Person;
+  rdfs:label "Schürpf, Markus";
+  rico:hasOrHadName "Schürpf, Markus" .
+
+<E03_440783000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "440783000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_440783133835_001>;
+  rdfs:label "Vom Baarer Schlittschuhclub zum EVZ : Zuger Markenzeichen mit Baarer Wurzeln";
+  rico:hasOrHadName "Vom Baarer Schlittschuhclub zum EVZ : Zuger Markenzeichen mit Baarer Wurzeln";
+  rico:hasCreator <http://example.org/base/Thalmann,%20Eugen>;
+  rico:creationDate "2002"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_440783133835_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PT 204.2001"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Vom Baarer Schlittschuhclub zum EVZ : Zuger Markenzeichen mit Baarer Wurzeln";
+  rico:hasOrHadName "Instantiation - Vom Baarer Schlittschuhclub zum EVZ : Zuger Markenzeichen mit Baarer Wurzeln";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Thalmann,%20Eugen> a rico:Person;
+  rdfs:label "Thalmann, Eugen";
+  rico:hasOrHadName "Thalmann, Eugen" .
+
+<E03_100862737099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100862737099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100862737099_001>;
+  rdfs:label "Vom Kornhaus über die Kaserne zur neuen Bibliothek : geglückter Umbau in der Stadt Zug";
+  rico:hasOrHadName "Vom Kornhaus über die Kaserne zur neuen Bibliothek : geglückter Umbau in der Stadt Zug";
+  rico:creationDate "1987"^^xsd:date;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100862737099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 826"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Vom Kornhaus über die Kaserne zur neuen Bibliothek : geglückter Umbau in der Stadt Zug";
+  rico:hasOrHadName "Instantiation - Vom Kornhaus über die Kaserne zur neuen Bibliothek : geglückter Umbau in der Stadt Zug";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E03_105130916099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105130916099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105130916099_001>;
+  rdfs:label "Das Neustadt-Schulhaus in Zug";
+  rico:hasOrHadName "Das Neustadt-Schulhaus in Zug";
+  rico:hasCreator <https://hls-dhs-dss.ch/de/articles/042168/2014-11-26/>;
+  rico:creationDate "1911"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105130916099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 3956"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Das Neustadt-Schulhaus in Zug";
+  rico:hasOrHadName "Instantiation - Das Neustadt-Schulhaus in Zug";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<https://hls-dhs-dss.ch/de/articles/042168/2014-11-26/> a rico:Person;
+  rdfs:label "Keiser, Dagobert";
+  rico:hasOrHadName "Keiser, Dagobert" .
+
+<E03_105143554099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105143554099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105143554099_001>;
+  rdfs:label "Das neue Theater-Casino in Zug";
+  rico:hasOrHadName "Das neue Theater-Casino in Zug";
+  rico:hasCreator wd:Q28168561;
+  rico:creationDate "1982"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105143554099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 607"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Das neue Theater-Casino in Zug";
+  rico:hasOrHadName "Instantiation - Das neue Theater-Casino in Zug";
+  rico:hasOrHadHolder wd:Q856475 .
+
+wd:Q28168561 a rico:Person;
+  rdfs:label "Hegglin, Walther A.";
+  rico:hasOrHadName "Hegglin, Walther A." .
+
+<E03_105144410099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105144410099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105144410099_001>;
+  rdfs:label "\"Wir spüren die Grösse der Stunde : (die 1.-August-Ansprache von Bundesrat Philipp Etter 1942 wurde zum Appell an den Durchhaltewillen der Schweizer)";
+  rico:hasOrHadName "\"Wir spüren die Grösse der Stunde : (die 1.-August-Ansprache von Bundesrat Philipp Etter 1942 wurde zum Appell an den Durchhaltewillen der Schweizer)";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1992"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105144410099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBf 78"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - \"Wir spüren die Grösse der Stunde : (die 1.-August-Ansprache von Bundesrat Philipp Etter 1942 wurde zum Appell an den Durchhaltewillen der Schweizer)";
+  rico:hasOrHadName "Instantiation - \"Wir spüren die Grösse der Stunde : (die 1.-August-Ansprache von Bundesrat Philipp Etter 1942 wurde zum Appell an den Durchhaltewillen der Schweizer)";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E03_400091745099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400091745099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400091745099_001>;
+  rdfs:label "\"Einige stich und exemplaria\" : Abbildungen in den ältesten Zuger Drucken";
+  rico:hasOrHadName "\"Einige stich und exemplaria\" : Abbildungen in den ältesten Zuger Drucken";
+  rico:hasCreator <http://example.org/base/Zobrist,%20Margrith>;
+  rico:creationDate "2013"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400091745099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 15/29"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - \"Einige stich und exemplaria\" : Abbildungen in den ältesten Zuger Drucken";
+  rico:hasOrHadName "Instantiation - \"Einige stich und exemplaria\" : Abbildungen in den ältesten Zuger Drucken";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<http://example.org/base/Zobrist,%20Margrith> a rico:Person;
+  rdfs:label "Zobrist, Margrith";
+  rico:hasOrHadName "Zobrist, Margrith" .
+
+<E03_400140478099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400140478099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400140478099_001>;
+  rdfs:label "Aus der Baugeschichte unserer Schulhäuser : I. Marktgasse";
+  rico:hasOrHadName "Aus der Baugeschichte unserer Schulhäuser : I. Marktgasse";
+  rico:hasCreator <http://example.org/base/Dändliker,%20Paul>;
+  rico:creationDate "1956"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400140478099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 9/5"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Aus der Baugeschichte unserer Schulhäuser : I. Marktgasse";
+  rico:hasOrHadName "Instantiation - Aus der Baugeschichte unserer Schulhäuser : I. Marktgasse";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<http://example.org/base/Dändliker,%20Paul> a rico:Person;
+  rdfs:label "Dändliker, Paul";
+  rico:hasOrHadName "Dändliker, Paul" .
+
+<E03_400149512099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400149512099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400149512099_001>;
+  rdfs:label "1531-1931 : Die Schlacht am Gubel und ihre Bedeutung für die kath. Schweiz : Gedenkblätter auf die Vierhundertjahr-Feier der Schlacht am 23. Oktober 1531";
+  rico:hasOrHadName "1531-1931 : Die Schlacht am Gubel und ihre Bedeutung für die kath. Schweiz : Gedenkblätter auf die Vierhundertjahr-Feier der Schlacht am 23. Oktober 1531";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1931"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400149512099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 10/11"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 1531-1931 : Die Schlacht am Gubel und ihre Bedeutung für die kath. Schweiz : Gedenkblätter auf die Vierhundertjahr-Feier der Schlacht am 23. Oktober 1531";
+  rico:hasOrHadName "Instantiation - 1531-1931 : Die Schlacht am Gubel und ihre Bedeutung für die kath. Schweiz : Gedenkblätter auf die Vierhundertjahr-Feier der Schlacht am 23. Oktober 1531";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E03_400154716099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400154716099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400154716099_001>;
+  rdfs:label "Seegfrörni im Jahre 1684";
+  rico:hasOrHadName "Seegfrörni im Jahre 1684";
+  rico:hasCreator <http://example.org/base/Speck,%20Michael>;
+  rico:creationDate "1955"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400154716099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 10/35"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Seegfrörni im Jahre 1684";
+  rico:hasOrHadName "Instantiation - Seegfrörni im Jahre 1684";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<http://example.org/base/Speck,%20Michael> a rico:Person;
+  rdfs:label "Speck, Michael";
+  rico:hasOrHadName "Speck, Michael" .
+
+<E03_400175249099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400175249099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400175249099_001>;
+  rdfs:label "Kurzberichte: Baar, General-Andermatt-Haus, Schwesternhaus, Schulhaus Marktgasse und Rathus-Schüür : Umgebungsgestaltung";
+  rico:hasOrHadName "Kurzberichte: Baar, General-Andermatt-Haus, Schwesternhaus, Schulhaus Marktgasse und Rathus-Schüür : Umgebungsgestaltung";
+  rico:creationDate "2008"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400175249099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 15/24"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Kurzberichte: Baar, General-Andermatt-Haus, Schwesternhaus, Schulhaus Marktgasse und Rathus-Schüür : Umgebungsgestaltung";
+  rico:hasOrHadName "Instantiation - Kurzberichte: Baar, General-Andermatt-Haus, Schwesternhaus, Schulhaus Marktgasse und Rathus-Schüür : Umgebungsgestaltung";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E03_400186276099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400186276099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400186276099_001>;
+  rdfs:label "Seegfrörni in alter Zeit [1880]";
+  rico:hasOrHadName "Seegfrörni in alter Zeit [1880]";
+  rico:creationDate "1980"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400186276099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 8/125"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Seegfrörni in alter Zeit [1880]";
+  rico:hasOrHadName "Instantiation - Seegfrörni in alter Zeit [1880]";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E03_400195241099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400195241099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400195241099_001>;
+  rdfs:label "Die 150-Jahrfeier der Theater- und Musikgesellschaft";
+  rico:hasOrHadName "Die 150-Jahrfeier der Theater- und Musikgesellschaft";
+  rico:hasCreator <http://example.org/base/Brunner,%20Josef>;
+  rico:creationDate "1960"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400195241099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 11/79"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Die 150-Jahrfeier der Theater- und Musikgesellschaft";
+  rico:hasOrHadName "Instantiation - Die 150-Jahrfeier der Theater- und Musikgesellschaft";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<http://example.org/base/Brunner,%20Josef> a rico:Person;
+  rdfs:label "Brunner, Josef";
+  rico:hasOrHadName "Brunner, Josef" .
+
+<E03_400197472099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400197472099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400197472099_001>;
+  rdfs:label "Der Bau des Theater-Casino in Zug 1905-1909 [mit Lebenslauf von Architekt Dagobert Keiser 1879-1959]";
+  rico:hasOrHadName "Der Bau des Theater-Casino in Zug 1905-1909 [mit Lebenslauf von Architekt Dagobert Keiser 1879-1959]";
+  rico:hasCreator <http://example.org/base/Grünenfelder,%20Josef>;
+  rico:creationDate "1981"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400197472099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 11/100"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Bau des Theater-Casino in Zug 1905-1909 [mit Lebenslauf von Architekt Dagobert Keiser 1879-1959]";
+  rico:hasOrHadName "Instantiation - Der Bau des Theater-Casino in Zug 1905-1909 [mit Lebenslauf von Architekt Dagobert Keiser 1879-1959]";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<http://example.org/base/Grünenfelder,%20Josef> a rico:Person;
+  rdfs:label "Grünenfelder, Josef";
+  rico:hasOrHadName "Grünenfelder, Josef" .
+
+<E03_400197584099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400197584099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400197584099_001>;
+  rdfs:label "Das neue Theater-Casino als ein Beispiel zeitgenössischer Architektur";
+  rico:hasOrHadName "Das neue Theater-Casino als ein Beispiel zeitgenössischer Architektur";
+  rico:hasCreator <http://example.org/base/Kamm-Kyburz,%20Christine>;
+  rico:creationDate "1982"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400197584099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "B 11/101"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Das neue Theater-Casino als ein Beispiel zeitgenössischer Architektur";
+  rico:hasOrHadName "Instantiation - Das neue Theater-Casino als ein Beispiel zeitgenössischer Architektur";
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<http://example.org/base/Kamm-Kyburz,%20Christine> a rico:Person;
+  rdfs:label "Kamm-Kyburz, Christine";
+  rico:hasOrHadName "Kamm-Kyburz, Christine" .
+
+<E03_ZUG00100000937> a rico:RecordSet;
+  rico:hasOrHadIdentifier "ZUG00100000937"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_ZUG00100000937_001>;
+  rdfs:label "Der Privatnachlass von Bundesrat Philipp Etter (1891-1977) : Bestandesgeschichte, Inhaltsbeschreibung, Forschungsperspektiven";
+  rico:hasOrHadName "Der Privatnachlass von Bundesrat Philipp Etter (1891-1977) : Bestandesgeschichte, Inhaltsbeschreibung, Forschungsperspektiven";
+  rico:hasCreator wd:Q95232803;
+  rico:creationDate "2018"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_ZUG00100000937_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 297.2018"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Privatnachlass von Bundesrat Philipp Etter (1891-1977) : Bestandesgeschichte, Inhaltsbeschreibung, Forschungsperspektiven";
+  rico:hasOrHadName "Instantiation - Der Privatnachlass von Bundesrat Philipp Etter (1891-1977) : Bestandesgeschichte, Inhaltsbeschreibung, Forschungsperspektiven";
+  rico:hasOrHadHolder wd:Q856475 .
+
+wd:Q95232803 a rico:Person;
+  rdfs:label "Zaugg, Thomas";
+  rico:hasOrHadName "Zaugg, Thomas" .
+
+<E03_14942370452> a rico:RecordSet;
+  rico:hasOrHadIdentifier "14942370452"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_14942370452_001>;
+  rdfs:label "Zugs erste Photographistin : Katharina Weiss, 1834-1911";
+  rico:hasOrHadName "Zugs erste Photographistin : Katharina Weiss, 1834-1911";
+  rico:hasCreator <http://example.org/base/Staub,%20Ignaz>;
+  rico:creationDate "1995"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_14942370452_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.1995"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zugs erste Photographistin : Katharina Weiss, 1834-1911";
+  rico:hasOrHadName "Instantiation - Zugs erste Photographistin : Katharina Weiss, 1834-1911";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Staub,%20Ignaz> a rico:Person;
+  rdfs:label "Staub, Ignaz";
+  rico:hasOrHadName "Staub, Ignaz" .
+
+<E03_203195000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "203195000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_203195096873_001>;
+  rdfs:label "Mehr als nur Arbeitsplätze : soziale Verantwortung von Zuger Unternehmen";
+  rico:hasOrHadName "Mehr als nur Arbeitsplätze : soziale Verantwortung von Zuger Unternehmen";
+  rico:hasCreator <http://example.org/base/Schenkel,%20Ronald>;
+  rico:creationDate "2009"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_203195096873_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.2009"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Mehr als nur Arbeitsplätze : soziale Verantwortung von Zuger Unternehmen";
+  rico:hasOrHadName "Instantiation - Mehr als nur Arbeitsplätze : soziale Verantwortung von Zuger Unternehmen";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Schenkel,%20Ronald> a rico:Person;
+  rdfs:label "Schenkel, Ronald";
+  rico:hasOrHadName "Schenkel, Ronald" .
+
+<E03_275691000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "275691000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_275690979704_001>;
+  rdfs:label "Von Zuger Kochapparaten - ein Stück Designgeschichte";
+  rico:hasOrHadName "Von Zuger Kochapparaten - ein Stück Designgeschichte";
+  rico:hasCreator <http://example.org/base/Eichenberger,%20Walter>;
+  rico:creationDate "1997"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_275690979704_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.1997"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Von Zuger Kochapparaten - ein Stück Designgeschichte";
+  rico:hasOrHadName "Instantiation - Von Zuger Kochapparaten - ein Stück Designgeschichte";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Eichenberger,%20Walter> a rico:Person;
+  rdfs:label "Eichenberger, Walter";
+  rico:hasOrHadName "Eichenberger, Walter" .
+
+<E03_305802000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "305802000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_305802056982_001>;
+  rdfs:label "Baubeginn an der Höhenklinik Adelheid (Unterägeri)";
+  rico:hasOrHadName "Baubeginn an der Höhenklinik Adelheid (Unterägeri)";
+  rico:hasCreator <http://example.org/base/Kühn,%20Hansruedi>;
+  rico:creationDate "1996"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_305802056982_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.1996"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Baubeginn an der Höhenklinik Adelheid (Unterägeri)";
+  rico:hasOrHadName "Instantiation - Baubeginn an der Höhenklinik Adelheid (Unterägeri)";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Kühn,%20Hansruedi> a rico:Person;
+  rdfs:label "Kühn, Hansruedi";
+  rico:hasOrHadName "Kühn, Hansruedi" .
+
+<E03_568210000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "568210000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_568209517139_001>;
+  rdfs:label "Im Zeitraffer: 200 Jahre Zuger Kulturgeschichte";
+  rico:hasOrHadName "Im Zeitraffer: 200 Jahre Zuger Kulturgeschichte";
+  rico:hasCreator <http://example.org/base/Lämmler,%20Mercedes>;
+  rico:creationDate "2018"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_568209517139_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.2019"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Im Zeitraffer: 200 Jahre Zuger Kulturgeschichte";
+  rico:hasOrHadName "Instantiation - Im Zeitraffer: 200 Jahre Zuger Kulturgeschichte";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Lämmler,%20Mercedes> a rico:Person;
+  rdfs:label "Lämmler, Mercedes";
+  rico:hasOrHadName "Lämmler, Mercedes" .
+
+<E03_907839000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "907839000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_907838769936_001>;
+  rdfs:label "Zug im Zug der Zeit : (Zivilisationsdynamik mit der Industrialisierung nach 1830)";
+  rico:hasOrHadName "Zug im Zug der Zeit : (Zivilisationsdynamik mit der Industrialisierung nach 1830)";
+  rico:hasCreator <http://example.org/base/Bossard,%20Carl>;
+  rico:creationDate "2018"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_907838769936_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.2018"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zug im Zug der Zeit : (Zivilisationsdynamik mit der Industrialisierung nach 1830)";
+  rico:hasOrHadName "Instantiation - Zug im Zug der Zeit : (Zivilisationsdynamik mit der Industrialisierung nach 1830)";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Bossard,%20Carl> a rico:Person;
+  rdfs:label "Bossard, Carl";
+  rico:hasOrHadName "Bossard, Carl" .
+
+<E03_93300272416> a rico:RecordSet;
+  rico:hasOrHadIdentifier "93300272416"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_93300272416_001>;
+  rdfs:label "Vom Bauen und Zurückbauen : das alte Sanatorium Adelheid";
+  rico:hasOrHadName "Vom Bauen und Zurückbauen : das alte Sanatorium Adelheid";
+  rico:hasCreator <http://example.org/base/Nussbaumer,%20Reto>;
+  rico:creationDate "2001"^^xsd:date;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_93300272416_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.2001"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Vom Bauen und Zurückbauen : das alte Sanatorium Adelheid";
+  rico:hasOrHadName "Instantiation - Vom Bauen und Zurückbauen : das alte Sanatorium Adelheid";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Nussbaumer,%20Reto> a rico:Person;
+  rdfs:label "Nussbaumer, Reto";
+  rico:hasOrHadName "Nussbaumer, Reto" .
+
+<E03_105145417099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105145417099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105145417099_001>;
+  rdfs:label "75 Jahre Sanatorium Adelheid : (Festschrift)";
+  rico:hasOrHadName "75 Jahre Sanatorium Adelheid : (Festschrift)";
+  rico:creationDate "1987"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q65658;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105145417099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 744"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 75 Jahre Sanatorium Adelheid : (Festschrift)";
+  rico:hasOrHadName "Instantiation - 75 Jahre Sanatorium Adelheid : (Festschrift)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Sanatorium%20Adelheid> .
+
+<http://example.org/base/Sanatorium%20Adelheid> a rico:CorporateBody;
+  rdfs:label "Sanatorium Adelheid";
+  rico:hasOrHadName "Sanatorium Adelheid" .
+
+wd:Q65658 a rico:Place;
+  rdfs:label "Unterägeri ";
+  rico:hasOrHadName "Unterägeri " .
+
+<E03_105009942099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105009942099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105009942099_001>;
+  rdfs:label "Dagobert Keiser und Richard Bracher : Architekten in Zug, 1906-1937";
+  rico:hasOrHadName "Dagobert Keiser und Richard Bracher : Architekten in Zug, 1906-1937";
+  rico:hasCreator <http://example.org/base/Nussbaumer,%20Reto>;
+  rico:creationDate "1998"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105009942099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATq 6996"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Dagobert Keiser und Richard Bracher : Architekten in Zug, 1906-1937";
+  rico:hasOrHadName "Instantiation - Dagobert Keiser und Richard Bracher : Architekten in Zug, 1906-1937";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Nussbaumer> .
+
+<http://example.org/base/Nussbaumer> a rico:Person;
+  rdfs:label "Nussbaumer";
+  rico:hasOrHadName "Nussbaumer" .
+
+wd:Q68144 a rico:Place;
+  rdfs:label "Zug", "Zug ";
+  rico:hasOrHadName "Zug", "Zug " .
+
+<E03_100337354099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100337000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100337354099_001>;
+  rdfs:label "Neujahrsblatt der Theater- und Musik-Gesellschaft Zug : zur Erinnerung an deren 50jähriges Jubiläum seit Eröffnung des Stadttheaters im Jahre 1843";
+  rico:hasOrHadName "Neujahrsblatt der Theater- und Musik-Gesellschaft Zug : zur Erinnerung an deren 50jähriges Jubiläum seit Eröffnung des Stadttheaters im Jahre 1843";
+  rico:creationDate "1893"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100337354099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATq 6692"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Neujahrsblatt der Theater- und Musik-Gesellschaft Zug : zur Erinnerung an deren 50jähriges Jubiläum seit Eröffnung des Stadttheaters im Jahre 1843";
+  rico:hasOrHadName "Instantiation - Neujahrsblatt der Theater- und Musik-Gesellschaft Zug : zur Erinnerung an deren 50jähriges Jubiläum seit Eröffnung des Stadttheaters im Jahre 1843";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Rey%20&%20Kalt> .
+
+<http://example.org/base/Rey%20&%20Kalt> a rico:CorporateBody;
+  rdfs:label "Rey & Kalt";
+  rico:hasOrHadName "Rey & Kalt" .
+
+<E03_100420104099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100420104099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100420104099_001>;
+  rdfs:label "150 Jahre Theater- und Musikgesellschaft Zug : 1809-1959";
+  rico:hasOrHadName "150 Jahre Theater- und Musikgesellschaft Zug : 1809-1959";
+  rico:creationDate "1959"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100420104099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 2269"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 150 Jahre Theater- und Musikgesellschaft Zug : 1809-1959";
+  rico:hasOrHadName "Instantiation - 150 Jahre Theater- und Musikgesellschaft Zug : 1809-1959";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+wd:Q112709824 a rico:CorporateBody;
+  rdfs:label "TMGZ";
+  rico:hasOrHadName "TMGZ" .
+
+<E03_100534320099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100534320099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100534320099_001>;
+  rdfs:label "100 Jahre Bürgerspital Zug : 1857-1957";
+  rico:hasOrHadName "100 Jahre Bürgerspital Zug : 1857-1957";
+  rico:creationDate "1957"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100534320099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "Tq 4190"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 100 Jahre Bürgerspital Zug : 1857-1957";
+  rico:hasOrHadName "Instantiation - 100 Jahre Bürgerspital Zug : 1857-1957";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Bürgergemeinde> .
+
+<http://example.org/base/Bürgergemeinde> a rico:CorporateBody;
+  rdfs:label "Bürgergemeinde";
+  rico:hasOrHadName "Bürgergemeinde" .
+
+<E03_100722660099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100722660099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100722660099_001>;
+  rdfs:label "Philipp Etter : Leben und Werk";
+  rico:hasOrHadName "Philipp Etter : Leben und Werk";
+  rico:hasCreator <http://example.org/base/Brunner,%20Josef>;
+  rico:creationDate "1979"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100722660099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 2298"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Philipp Etter : Leben und Werk";
+  rico:hasOrHadName "Instantiation - Philipp Etter : Leben und Werk";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Gemeinnützige%20Gesellschaft> .
+
+<http://example.org/base/Gemeinnützige%20Gesellschaft> a rico:CorporateBody;
+  rdfs:label "Gemeinnützige Gesellschaft";
+  rico:hasOrHadName "Gemeinnützige Gesellschaft" .
+
+<E03_100728419099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100728419099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100728419099_001>;
+  rdfs:label "Zur Eröffnung des Neubaus Theater-Casino Zug";
+  rico:hasOrHadName "Zur Eröffnung des Neubaus Theater-Casino Zug";
+  rico:hasCreator <http://example.org/base/Kamer,%20Max>;
+  rico:creationDate "1982"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100728419099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 513"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zur Eröffnung des Neubaus Theater-Casino Zug";
+  rico:hasOrHadName "Instantiation - Zur Eröffnung des Neubaus Theater-Casino Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kalt-Zehnder> .
+
+<http://example.org/base/Kamer,%20Max> a rico:Person;
+  rdfs:label "Kamer, Max";
+  rico:hasOrHadName "Kamer, Max" .
+
+<http://example.org/base/Kalt-Zehnder> a rico:CorporateBody;
+  rdfs:label "Kalt-Zehnder";
+  rico:hasOrHadName "Kalt-Zehnder" .
+
+<E03_100831865099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100831865099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100831865099_001>;
+  rdfs:label "Kurze Staats- und Verfassungskunde : unter besonderer Berücksichtigung der Kantone Zug und Schwyz";
+  rico:hasOrHadName "Kurze Staats- und Verfassungskunde : unter besonderer Berücksichtigung der Kantone Zug und Schwyz";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1925"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100831865099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 1315"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Kurze Staats- und Verfassungskunde : unter besonderer Berücksichtigung der Kantone Zug und Schwyz";
+  rico:hasOrHadName "Instantiation - Kurze Staats- und Verfassungskunde : unter besonderer Berücksichtigung der Kantone Zug und Schwyz";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kantonales%20Lehrmitteldepot> .
+
+<http://example.org/base/Kantonales%20Lehrmitteldepot> a rico:CorporateBody;
+  rdfs:label "Kantonales Lehrmitteldepot";
+  rico:hasOrHadName "Kantonales Lehrmitteldepot" .
+
+<E03_100910658099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100910658099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100910658099_001>;
+  rdfs:label "100 Jahre Boris Hagelin, 1892-1992 : die Geschichte des Firmagründers (!) Crypto AG, 6301 Zug";
+  rico:hasOrHadName "100 Jahre Boris Hagelin, 1892-1992 : die Geschichte des Firmagründers (!) Crypto AG, 6301 Zug";
+  rico:creationDate "1992"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100910658099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 1222"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 100 Jahre Boris Hagelin, 1892-1992 : die Geschichte des Firmagründers (!) Crypto AG, 6301 Zug";
+  rico:hasOrHadName "Instantiation - 100 Jahre Boris Hagelin, 1892-1992 : die Geschichte des Firmagründers (!) Crypto AG, 6301 Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q665539 .
+
+wd:Q665539 a rico:CorporateBody;
+  rdfs:label "Crypto AG";
+  rico:hasOrHadName "Crypto AG" .
+
+<E03_101257055099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101257055099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101257055099_001>;
+  rdfs:label "Aufbau des topographischen Bildarchivs der Stadt- und Kantonsbibliothek Zug : Einführung und Arbeitsbericht";
+  rico:hasOrHadName "Aufbau des topographischen Bildarchivs der Stadt- und Kantonsbibliothek Zug : Einführung und Arbeitsbericht";
+  rico:hasCreator <http://example.org/base/Pfeffer,%20Liliane>;
+  rico:creationDate "1985"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101257055099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 575"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Aufbau des topographischen Bildarchivs der Stadt- und Kantonsbibliothek Zug : Einführung und Arbeitsbericht";
+  rico:hasOrHadName "Instantiation - Aufbau des topographischen Bildarchivs der Stadt- und Kantonsbibliothek Zug : Einführung und Arbeitsbericht";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q856475 .
+
+<http://example.org/base/Pfeffer,%20Liliane> a rico:Person;
+  rdfs:label "Pfeffer, Liliane";
+  rico:hasOrHadName "Pfeffer, Liliane" .
+
+<E03_101435815099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101435815099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101435815099_001>;
+  rdfs:label "Der Ochsen in Zug : 75 Jahre im Besitz der Familie Hegglin";
+  rico:hasOrHadName "Der Ochsen in Zug : 75 Jahre im Besitz der Familie Hegglin";
+  rico:hasCreator wd:Q28168561;
+  rico:creationDate "1997"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101435815099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 1603"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Ochsen in Zug : 75 Jahre im Besitz der Familie Hegglin";
+  rico:hasOrHadName "Instantiation - Der Ochsen in Zug : 75 Jahre im Besitz der Familie Hegglin";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kalt-Zehnder> .
+
+wd:Q28168561 a rico:Person;
+  rdfs:label "Hegglin, Walther A.", "Hegglin, Walter A.";
+  rico:hasOrHadName "Hegglin, Walther A.", "Hegglin, Walter A." .
+
+wd:Q856475 a rico:CorporateBody;
+  rdfs:label "Bibliothek Zug", "Bibliothek", "Stadtbibliothek";
+  rico:hasOrHadName "Bibliothek", "Stadtbibliothek" .
+
+<http://example.org/base/Kalt-Zehnder> a rico:CorporateBody;
+  rdfs:label "Kalt-Zehnder";
+  rico:hasOrHadName "Kalt-Zehnder" .
+
+wd:Q68144 a rico:Place;
+  rdfs:label "Zug ";
+  rico:hasOrHadName "Zug " .
+
+<E03_101499567099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101499567099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101499567099_001>;
+  rdfs:label "Auf dem Gipfel! : das EVZ-Meisterwerk";
+  rico:hasOrHadName "Auf dem Gipfel! : das EVZ-Meisterwerk";
+  rico:creationDate "1998"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101499567099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 1717"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Auf dem Gipfel! : das EVZ-Meisterwerk";
+  rico:hasOrHadName "Instantiation - Auf dem Gipfel! : das EVZ-Meisterwerk";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+wd:Q662592 a rico:CorporateBody;
+  rdfs:label "EVZ";
+  rico:hasOrHadName "EVZ" .
+
+<E03_101732699099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101732699099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101732699099_001>;
+  rdfs:label "Geschichtliches zu einigen älteren Zuger Drucken";
+  rico:hasOrHadName "Geschichtliches zu einigen älteren Zuger Drucken";
+  rico:hasCreator <http://example.org/base/Bieler,%20Anton>;
+  rico:creationDate "1954"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101732699099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 1960"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Geschichtliches zu einigen älteren Zuger Drucken";
+  rico:hasOrHadName "Instantiation - Geschichtliches zu einigen älteren Zuger Drucken";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Zürcher> .
+
+<http://example.org/base/Bieler,%20Anton> a rico:Person;
+  rdfs:label "Bieler, Anton";
+  rico:hasOrHadName "Bieler, Anton" .
+
+<http://example.org/base/Zürcher> a rico:CorporateBody;
+  rdfs:label "Zürcher";
+  rico:hasOrHadName "Zürcher" .
+
+<E03_101732701099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101732701099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101732701099_001>;
+  rdfs:label "Am Aserfeuer : Jagderinnerungen";
+  rico:hasOrHadName "Am Aserfeuer : Jagderinnerungen";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1952"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101732701099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 1958"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Am Aserfeuer : Jagderinnerungen";
+  rico:hasOrHadName "Instantiation - Am Aserfeuer : Jagderinnerungen";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Zürchers%20Erben> .
+
+wd:Q532343 a rico:Person;
+  rdfs:label "Etter, Philipp";
+  rico:hasOrHadName "Etter, Philipp" .
+
+<http://example.org/base/Zürchers%20Erben> a rico:CorporateBody;
+  rdfs:label "Zürchers Erben";
+  rico:hasOrHadName "Zürchers Erben" .
+
+<E03_101770798099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101770798099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101770798099_001>;
+  rdfs:label "Stadtbibliothek Zug : zur Eröffnung der Stadt- und Kantonsbibliothek Zug";
+  rico:hasOrHadName "Stadtbibliothek Zug : zur Eröffnung der Stadt- und Kantonsbibliothek Zug";
+  rico:creationDate "1986"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101770798099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "T 7124"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Stadtbibliothek Zug : zur Eröffnung der Stadt- und Kantonsbibliothek Zug";
+  rico:hasOrHadName "Instantiation - Stadtbibliothek Zug : zur Eröffnung der Stadt- und Kantonsbibliothek Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Speck> .
+
+<http://example.org/base/Speck> a rico:Person;
+  rdfs:label "Speck";
+  rico:hasOrHadName "Speck" .
+
+<E03_101786340099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101786340099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101786340099_001>;
+  rdfs:label "Oeffentliche Bauten der Stadt Zug : Sporthalle Zug Herti";
+  rico:hasOrHadName "Oeffentliche Bauten der Stadt Zug : Sporthalle Zug Herti";
+  rico:creationDate "2001"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101786340099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 2181"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Oeffentliche Bauten der Stadt Zug : Sporthalle Zug Herti";
+  rico:hasOrHadName "Instantiation - Oeffentliche Bauten der Stadt Zug : Sporthalle Zug Herti";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Baudepartement> .
+
+<http://example.org/base/Baudepartement> a rico:CorporateBody;
+  rdfs:label "Baudepartement";
+  rico:hasOrHadName "Baudepartement" .
+
+<E03_101914585099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "101914585099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_101914585099_001>;
+  rdfs:label "Website der Stadt- und Kantonsbibliothek Zug : August 1999 - Dezember 2003";
+  rico:hasOrHadName "Website der Stadt- und Kantonsbibliothek Zug : August 1999 - Dezember 2003";
+  rico:creationDate "2003"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_101914585099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 2567"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Website der Stadt- und Kantonsbibliothek Zug : August 1999 - Dezember 2003";
+  rico:hasOrHadName "Instantiation - Website der Stadt- und Kantonsbibliothek Zug : August 1999 - Dezember 2003";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q856475 .
+
+<E03_102097630099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102097630099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102097630099_001>;
+  rdfs:label "Neue Eissportanlagen Herti Zug : Bericht des Auswahlgremiums zu den eingereichten Ueberbauungskonzepten";
+  rico:hasOrHadName "Neue Eissportanlagen Herti Zug : Bericht des Auswahlgremiums zu den eingereichten Ueberbauungskonzepten";
+  rico:creationDate "2004"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102097630099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 3086"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Neue Eissportanlagen Herti Zug : Bericht des Auswahlgremiums zu den eingereichten Ueberbauungskonzepten";
+  rico:hasOrHadName "Instantiation - Neue Eissportanlagen Herti Zug : Bericht des Auswahlgremiums zu den eingereichten Ueberbauungskonzepten";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Finanzdepartement%20(u.a.)> .
+
+<http://example.org/base/Finanzdepartement%20(u.a.)> a rico:CorporateBody;
+  rdfs:label "Finanzdepartement (u.a.)";
+  rico:hasOrHadName "Finanzdepartement (u.a.)" .
+
+<E03_102158959099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102158959099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102158959099_001>;
+  rdfs:label "Eine Zeitreise : 1857-2007";
+  rico:hasOrHadName "Eine Zeitreise : 1857-2007";
+  rico:creationDate "2007"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102158959099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 3314"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Eine Zeitreise : 1857-2007";
+  rico:hasOrHadName "Instantiation - Eine Zeitreise : 1857-2007";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kantonsspital> .
+
+<http://example.org/base/Kantonsspital> a rico:CorporateBody;
+  rdfs:label "Kantonsspital";
+  rico:hasOrHadName "Kantonsspital" .
+
+<E03_102247897099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102247897099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102247897099_001>;
+  rdfs:label "TMGZ - ein Dialog";
+  rico:hasOrHadName "TMGZ - ein Dialog";
+  rico:creationDate "2008"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102247897099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "T 8949"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - TMGZ - ein Dialog";
+  rico:hasOrHadName "Instantiation - TMGZ - ein Dialog";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kalt-Zehnder> .
+
+<E03_102425334099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102425334099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102425334099_001>;
+  rdfs:label "Benützungsreglement der Stadtbibliothek Zug";
+  rico:hasOrHadName "Benützungsreglement der Stadtbibliothek Zug";
+  rico:creationDate "1942"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102425334099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 14"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Benützungsreglement der Stadtbibliothek Zug";
+  rico:hasOrHadName "Instantiation - Benützungsreglement der Stadtbibliothek Zug";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E03_102425475099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102425475099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102425475099_001>;
+  rdfs:label "Reglement über die Verwaltung der Stadtbibliothek Zug";
+  rico:hasOrHadName "Reglement über die Verwaltung der Stadtbibliothek Zug";
+  rico:creationDate "1942"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102425475099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 13"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Reglement über die Verwaltung der Stadtbibliothek Zug";
+  rico:hasOrHadName "Instantiation - Reglement über die Verwaltung der Stadtbibliothek Zug";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E03_102456772099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102456772099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102456772099_001>;
+  rdfs:label "Die Stadtbibliothek von A-Z";
+  rico:hasOrHadName "Die Stadtbibliothek von A-Z";
+  rico:creationDate "1983"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102456772099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 596"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Die Stadtbibliothek von A-Z";
+  rico:hasOrHadName "Instantiation - Die Stadtbibliothek von A-Z";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q856475 .
+
+<E03_102467077099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102467077099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102467077099_001>;
+  rdfs:label "Erinnerungen an Philipp Etter";
+  rico:hasOrHadName "Erinnerungen an Philipp Etter";
+  rico:hasCreator <http://example.org/base/Rüttimann,%20Carl>;
+  rico:creationDate "1978"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102467077099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 613"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Erinnerungen an Philipp Etter";
+  rico:hasOrHadName "Instantiation - Erinnerungen an Philipp Etter";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Zürcher> .
+
+<http://example.org/base/Rüttimann,%20Carl> a rico:Person;
+  rdfs:label "Rüttimann, Carl";
+  rico:hasOrHadName "Rüttimann, Carl" .
+
+<E03_102507777099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102507777099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102507777099_001>;
+  rdfs:label "Zug on Ice : Eröffnung der Bossard Arena, 20. bis 22. August";
+  rico:hasOrHadName "Zug on Ice : Eröffnung der Bossard Arena, 20. bis 22. August";
+  rico:creationDate "2010"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102507777099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 3603"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zug on Ice : Eröffnung der Bossard Arena, 20. bis 22. August";
+  rico:hasOrHadName "Instantiation - Zug on Ice : Eröffnung der Bossard Arena, 20. bis 22. August";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Neue%20ZZ> .
+
+<http://example.org/base/Neue%20ZZ> a rico:CorporateBody;
+  rdfs:label "Neue ZZ";
+  rico:hasOrHadName "Neue ZZ" .
+
+<E03_102682140099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102682140099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102682140099_001>;
+  rdfs:label "Umbau Kantonales Zeughaus Zug : Obergericht und Studienbibliothek";
+  rico:hasOrHadName "Umbau Kantonales Zeughaus Zug : Obergericht und Studienbibliothek";
+  rico:creationDate "2011"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102682140099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 3667"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Umbau Kantonales Zeughaus Zug : Obergericht und Studienbibliothek";
+  rico:hasOrHadName "Instantiation - Umbau Kantonales Zeughaus Zug : Obergericht und Studienbibliothek";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Baudirektion> .
+
+<http://example.org/base/Baudirektion> a rico:CorporateBody;
+  rdfs:label "Baudirektion";
+  rico:hasOrHadName "Baudirektion" .
+
+<E03_102768156099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "102768156099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_102768156099_001>;
+  rdfs:label "Statuten der Theater- und Musikgesellschaft Zug : vom 15. Juli 1910";
+  rico:hasOrHadName "Statuten der Theater- und Musikgesellschaft Zug : vom 15. Juli 1910";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "1910"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_102768156099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 1310"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Statuten der Theater- und Musikgesellschaft Zug : vom 15. Juli 1910";
+  rico:hasOrHadName "Instantiation - Statuten der Theater- und Musikgesellschaft Zug : vom 15. Juli 1910";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+wd:Q112709824 a rico:CorporateBody;
+  rdfs:label "Theater- und Musikgesellschaft (Zug)", "TMGZ", "Theater- und Musikgesellschaft";
+  rico:hasOrHadName "Theater- und Musikgesellschaft (Zug)", "TMGZ", "Theater- und Musikgesellschaft" .
+
+<E03_105019790099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105019790099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105019790099_001>;
+  rdfs:label "Der Ochsen in Zug : Plauderei um eine alte innerschweizerische Gaststätte";
+  rico:hasOrHadName "Der Ochsen in Zug : Plauderei um eine alte innerschweizerische Gaststätte";
+  rico:hasCreator <http://example.org/base/Koch,%20Hans>;
+  rico:creationDate "1959"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105019790099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2018"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Ochsen in Zug : Plauderei um eine alte innerschweizerische Gaststätte";
+  rico:hasOrHadName "Instantiation - Der Ochsen in Zug : Plauderei um eine alte innerschweizerische Gaststätte";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kalt-Zehnder> .
+
+<http://example.org/base/Koch,%20Hans> a rico:Person;
+  rdfs:label "Koch, Hans";
+  rico:hasOrHadName "Koch, Hans" .
+
+<E03_105023025099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105023025099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105023025099_001>;
+  rdfs:label "Katalog der Stadt-Bibliothek von Zug : Sommer 1858";
+  rico:hasOrHadName "Katalog der Stadt-Bibliothek von Zug : Sommer 1858";
+  rico:creationDate "1858"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105023025099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2257"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Katalog der Stadt-Bibliothek von Zug : Sommer 1858";
+  rico:hasOrHadName "Instantiation - Katalog der Stadt-Bibliothek von Zug : Sommer 1858";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q78058104 .
+
+wd:Q78058104 a rico:Person;
+  rdfs:label "Joh. Mich. Al. Blunschi (Druck)", "Johann Michael Aloys Blunschi (Druck)";
+  rico:hasOrHadName "Joh. Mich. Al. Blunschi (Druck)", "Johann Michael Aloys Blunschi (Druck)" .
+
+<E03_105025058099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105025058099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105025058099_001>;
+  rdfs:label "Statuten der Theater- und Musikgesellschaft in Zug";
+  rico:hasOrHadName "Statuten der Theater- und Musikgesellschaft in Zug";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "1859"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105025058099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2416"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Statuten der Theater- und Musikgesellschaft in Zug";
+  rico:hasOrHadName "Instantiation - Statuten der Theater- und Musikgesellschaft in Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+<E03_105028145099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105028145099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105028145099_001>;
+  rdfs:label "Der neue Bürgerspital";
+  rico:hasOrHadName "Der neue Bürgerspital";
+  rico:creationDate "1938"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105028145099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2602"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der neue Bürgerspital";
+  rico:hasOrHadName "Instantiation - Der neue Bürgerspital";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Bürgergemeinde> .
+
+<http://example.org/base/Bürgergemeinde> a rico:CorporateBody;
+  rdfs:label "Bürgergemeinde";
+  rico:hasOrHadName "Bürgergemeinde" .
+
+<E03_105030658099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105030658099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105030658099_001>;
+  rdfs:label "Der Bürgerspital in Zug : seine Entwicklung und die heutige Baufrage";
+  rico:hasOrHadName "Der Bürgerspital in Zug : seine Entwicklung und die heutige Baufrage";
+  rico:hasCreator <http://example.org/base/Uttinger-Ineichen,%20Alois>;
+  rico:creationDate "1933"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105030658099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2803"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Bürgerspital in Zug : seine Entwicklung und die heutige Baufrage";
+  rico:hasOrHadName "Instantiation - Der Bürgerspital in Zug : seine Entwicklung und die heutige Baufrage";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Uttinger-Ineichen> .
+
+<http://example.org/base/Uttinger-Ineichen,%20Alois> a rico:Person;
+  rdfs:label "Uttinger-Ineichen, Alois";
+  rico:hasOrHadName "Uttinger-Ineichen, Alois" .
+
+<http://example.org/base/Uttinger-Ineichen> a rico:CorporateBody;
+  rdfs:label "Uttinger-Ineichen";
+  rico:hasOrHadName "Uttinger-Ineichen" .
+
+<E03_105038373099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105038373099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105038373099_001>;
+  rdfs:label "Unsere Bibliothek";
+  rico:hasOrHadName "Unsere Bibliothek";
+  rico:hasCreator wd:Q60189088;
+  rico:creationDate "1942"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105038373099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 2592"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Unsere Bibliothek";
+  rico:hasOrHadName "Instantiation - Unsere Bibliothek";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q60189088 .
+
+wd:Q60189088 a rico:Person;
+  rdfs:label "Zumbach, Ernst", "Zumbach";
+  rico:hasOrHadName "Zumbach, Ernst", "Zumbach" .
+
+<E03_105045568099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105045568099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105045568099_001>;
+  rdfs:label "Organisation der Stadtbibliothek Zug";
+  rico:hasOrHadName "Organisation der Stadtbibliothek Zug";
+  rico:hasCreator <http://example.org/base/Zug.%20Einwohnerrat>;
+  rico:creationDate "1911"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105045568099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 2689"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Organisation der Stadtbibliothek Zug";
+  rico:hasOrHadName "Instantiation - Organisation der Stadtbibliothek Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Einwohnerrat> .
+
+<http://example.org/base/Zug.%20Einwohnerrat> a rico:CorporateBody;
+  rdfs:label "Zug. Einwohnerrat";
+  rico:hasOrHadName "Zug. Einwohnerrat" .
+
+<http://example.org/base/Einwohnerrat> a rico:CorporateBody;
+  rdfs:label "Einwohnerrat";
+  rico:hasOrHadName "Einwohnerrat" .
+
+<E03_105046354099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105046354099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105046354099_001>;
+  rdfs:label "City Hotel Ochsen Zug : traditionelles Gasthaus seit 500 Jahren";
+  rico:hasOrHadName "City Hotel Ochsen Zug : traditionelles Gasthaus seit 500 Jahren";
+  rico:hasCreator wd:Q28168561;
+  rico:creationDate "1967"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105046354099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBf 45"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - City Hotel Ochsen Zug : traditionelles Gasthaus seit 500 Jahren";
+  rico:hasOrHadName "Instantiation - City Hotel Ochsen Zug : traditionelles Gasthaus seit 500 Jahren";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kalt-Zehnder> .
+
+<E03_105063483099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105063483099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105063483099_001>;
+  rdfs:label "Katalog der Stadt-Bibliothek Zug";
+  rico:hasOrHadName "Katalog der Stadt-Bibliothek Zug";
+  rico:creationDate "1910"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105063483099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2250"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Katalog der Stadt-Bibliothek Zug";
+  rico:hasOrHadName "Instantiation - Katalog der Stadt-Bibliothek Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Buchdruckerei%20Blunschi> .
+
+<http://example.org/base/Buchdruckerei%20Blunschi> a rico:CorporateBody;
+  rdfs:label "Buchdruckerei Blunschi";
+  rico:hasOrHadName "Buchdruckerei Blunschi" .
+
+<E03_105091932099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105091932099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105091932099_001>;
+  rdfs:label "25 Jahre EVZ, 1967-1992 : vom Baarer Weiher auf die Hertiallmend oder vom Baarer SC zum Eissport-Verein Zug (EVZ) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:hasOrHadName "25 Jahre EVZ, 1967-1992 : vom Baarer Weiher auf die Hertiallmend oder vom Baarer SC zum Eissport-Verein Zug (EVZ) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:creationDate "1992"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Sonstiges%20Material>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105091932099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TV 72"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 25 Jahre EVZ, 1967-1992 : vom Baarer Weiher auf die Hertiallmend oder vom Baarer SC zum Eissport-Verein Zug (EVZ) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:hasOrHadName "Instantiation - 25 Jahre EVZ, 1967-1992 : vom Baarer Weiher auf die Hertiallmend oder vom Baarer SC zum Eissport-Verein Zug (EVZ) (Benutzung vor Ort, 4. OG (digitalisierte Filmdatei))";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_105114727099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105114727099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105114727099_001>;
+  rdfs:label "Katalog der Stadt-Bibliothek von Zug vom Jahre 1876 : II. Nachtrag";
+  rico:hasOrHadName "Katalog der Stadt-Bibliothek von Zug vom Jahre 1876 : II. Nachtrag";
+  rico:creationDate "1893"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105114727099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 392"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Katalog der Stadt-Bibliothek von Zug vom Jahre 1876 : II. Nachtrag";
+  rico:hasOrHadName "Instantiation - Katalog der Stadt-Bibliothek von Zug vom Jahre 1876 : II. Nachtrag";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/J.%20Zürcher> .
+
+<http://example.org/base/J.%20Zürcher> a rico:Person;
+  rdfs:label "J. Zürcher";
+  rico:hasOrHadName "J. Zürcher" .
+
+<E03_105117140099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105117140099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105117140099_001>;
+  rdfs:label "Katalog der Stadt-Bibliothek von Zug";
+  rico:hasOrHadName "Katalog der Stadt-Bibliothek von Zug";
+  rico:creationDate "1876"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105117140099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "AT 131"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Katalog der Stadt-Bibliothek von Zug";
+  rico:hasOrHadName "Instantiation - Katalog der Stadt-Bibliothek von Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q78058104 .
+
+<E03_105127787099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105127787099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105127787099_001>;
+  rdfs:label "Statuten der Theater- und Musikgesellschaft Zug : gegründet 1808";
+  rico:hasOrHadName "Statuten der Theater- und Musikgesellschaft Zug : gegründet 1808";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "1981"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105127787099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 425"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Statuten der Theater- und Musikgesellschaft Zug : gegründet 1808";
+  rico:hasOrHadName "Instantiation - Statuten der Theater- und Musikgesellschaft Zug : gegründet 1808";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+<E03_105129075099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105129075099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105129075099_001>;
+  rdfs:label "Statuten der Metallwaaren-Fabrik Zug";
+  rico:hasOrHadName "Statuten der Metallwaaren-Fabrik Zug";
+  rico:creationDate "1887"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105129075099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 984"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Statuten der Metallwaaren-Fabrik Zug";
+  rico:hasOrHadName "Instantiation - Statuten der Metallwaaren-Fabrik Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Metallwarenfabrik> .
+
+<http://example.org/base/Metallwarenfabrik> a rico:CorporateBody;
+  rdfs:label "Metallwarenfabrik";
+  rico:hasOrHadName "Metallwarenfabrik" .
+
+<E03_105129637099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105129637099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105129637099_001>;
+  rdfs:label "Statuten des Eissportverein Zug (EVZ)";
+  rico:hasOrHadName "Statuten des Eissportverein Zug (EVZ)";
+  rico:creationDate "1982"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105129637099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 742"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Statuten des Eissportverein Zug (EVZ)";
+  rico:hasOrHadName "Instantiation - Statuten des Eissportverein Zug (EVZ)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_105131760099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105131760099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105131760099_001>;
+  rdfs:label "Zum siebzigsten Geburtstag unseres Vaters, Bundesrat Philipp Etter : 21. Dezember 1961";
+  rico:hasOrHadName "Zum siebzigsten Geburtstag unseres Vaters, Bundesrat Philipp Etter : 21. Dezember 1961";
+  rico:hasCreator <http://example.org/base/Etter,%20Maria%20(u.a.)>;
+  rico:creationDate "1961"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105131760099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 1316"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Zum siebzigsten Geburtstag unseres Vaters, Bundesrat Philipp Etter : 21. Dezember 1961";
+  rico:hasOrHadName "Instantiation - Zum siebzigsten Geburtstag unseres Vaters, Bundesrat Philipp Etter : 21. Dezember 1961";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Zürcher> .
+
+<http://example.org/base/Etter,%20Maria%20(u.a.)> a rico:Person;
+  rdfs:label "Etter, Maria (u.a.)";
+  rico:hasOrHadName "Etter, Maria (u.a.)" .
+
+<E03_105139290099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105139290099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105139290099_001>;
+  rdfs:label "Aus der Geschichte der Metallwarenfabrik Zug";
+  rico:hasOrHadName "Aus der Geschichte der Metallwarenfabrik Zug";
+  rico:hasCreator <http://example.org/base/Stadlin,%20Paul>;
+  rico:creationDate "1980"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105139290099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 519"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Aus der Geschichte der Metallwarenfabrik Zug";
+  rico:hasOrHadName "Instantiation - Aus der Geschichte der Metallwarenfabrik Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Kalt-Zehnder> .
+
+<http://example.org/base/Stadlin,%20Paul> a rico:Person;
+  rdfs:label "Stadlin, Paul";
+  rico:hasOrHadName "Stadlin, Paul" .
+
+<E03_105144650099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105144650099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105144650099_001>;
+  rdfs:label "Areal ehemaliges Kantonsspital Zug : städtebaulicher Studienauftrag";
+  rico:hasOrHadName "Areal ehemaliges Kantonsspital Zug : städtebaulicher Studienauftrag";
+  rico:creationDate "2012"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105144650099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 4003"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Areal ehemaliges Kantonsspital Zug : städtebaulicher Studienauftrag";
+  rico:hasOrHadName "Instantiation - Areal ehemaliges Kantonsspital Zug : städtebaulicher Studienauftrag";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Hochbauamt%20des%20Kantons%20Zug> .
+
+<http://example.org/base/Hochbauamt%20des%20Kantons%20Zug> a rico:CorporateBody;
+  rdfs:label "Hochbauamt des Kantons Zug";
+  rico:hasOrHadName "Hochbauamt des Kantons Zug" .
+
+<E03_105148588099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105148588099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105148588099_001>;
+  rdfs:label "EVZ 1993/94";
+  rico:hasOrHadName "EVZ 1993/94";
+  rico:creationDate "1993"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105148588099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 1296"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - EVZ 1993/94";
+  rico:hasOrHadName "Instantiation - EVZ 1993/94";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Zuger%20Zeitung> .
+
+<http://example.org/base/Zuger%20Zeitung> a rico:CorporateBody;
+  rdfs:label "Zuger Zeitung";
+  rico:hasOrHadName "Zuger Zeitung" .
+
+<E03_107531591099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "107531591099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_107531591099_001>;
+  rdfs:label "Auf in den Süden! : Kunst & Kultur im alten Kantonsspital Zug";
+  rico:hasOrHadName "Auf in den Süden! : Kunst & Kultur im alten Kantonsspital Zug";
+  rico:hasCreator <http://example.org/base/Falk,%20Jacqueline>;
+  rico:creationDate "2015"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_107531591099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 3865"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Auf in den Süden! : Kunst & Kultur im alten Kantonsspital Zug";
+  rico:hasOrHadName "Instantiation - Auf in den Süden! : Kunst & Kultur im alten Kantonsspital Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Stelle%20für%20Kultur> .
+
+<http://example.org/base/Falk,%20Jacqueline> a rico:Person;
+  rdfs:label "Falk, Jacqueline";
+  rico:hasOrHadName "Falk, Jacqueline" .
+
+<http://example.org/base/Stelle%20für%20Kultur> a rico:CorporateBody;
+  rdfs:label "Stelle für Kultur";
+  rico:hasOrHadName "Stelle für Kultur" .
+
+<E03_107569321099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "107569321099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_107569321099_001>;
+  rdfs:label "Gründungsversammlung des Vereins \"Nachbarschaft St. Oswald\" : 11. November 1983 im Kolinsaal des Hotel Ochsen";
+  rico:hasOrHadName "Gründungsversammlung des Vereins \"Nachbarschaft St. Oswald\" : 11. November 1983 im Kolinsaal des Hotel Ochsen";
+  rico:creationDate "1983"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_107569321099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 417"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Gründungsversammlung des Vereins \"Nachbarschaft St. Oswald\" : 11. November 1983 im Kolinsaal des Hotel Ochsen";
+  rico:hasOrHadName "Instantiation - Gründungsversammlung des Vereins \"Nachbarschaft St. Oswald\" : 11. November 1983 im Kolinsaal des Hotel Ochsen";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E03_107898751099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "107898751099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_107898751099_001>;
+  rdfs:label "Das Rathaus an der Grenzmarch : freie Erzählung im Schatten des alten Zürichkriegs";
+  rico:hasOrHadName "Das Rathaus an der Grenzmarch : freie Erzählung im Schatten des alten Zürichkriegs";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1971"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_107898751099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TB 1715"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Das Rathaus an der Grenzmarch : freie Erzählung im Schatten des alten Zürichkriegs";
+  rico:hasOrHadName "Instantiation - Das Rathaus an der Grenzmarch : freie Erzählung im Schatten des alten Zürichkriegs";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Offizin%20Zürcher> .
+
+<http://example.org/base/Offizin%20Zürcher> a rico:CorporateBody;
+  rdfs:label "Offizin Zürcher";
+  rico:hasOrHadName "Offizin Zürcher" .
+
+<E03_107970772099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "107970772099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_107970772099_001>;
+  rdfs:label "50 Jahre EVZ - für ein lebendiges Zug : 1967-2017";
+  rico:hasOrHadName "50 Jahre EVZ - für ein lebendiges Zug : 1967-2017";
+  rico:hasCreator <http://example.org/base/Thalmann,%20Eugen>;
+  rico:creationDate "2017"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_107970772099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "Tq 7724"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 50 Jahre EVZ - für ein lebendiges Zug : 1967-2017";
+  rico:hasOrHadName "Instantiation - 50 Jahre EVZ - für ein lebendiges Zug : 1967-2017";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<http://example.org/base/Thalmann,%20Eugen> a rico:Person;
+  rdfs:label "Thalmann, Eugen";
+  rico:hasOrHadName "Thalmann, Eugen" .
+
+<E03_108084872099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "108084872099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_108084872099_001>;
+  rdfs:label "1887-2012 - Metallwarenfabrik Zug : die Wurzeln der Metall Zug";
+  rico:hasOrHadName "1887-2012 - Metallwarenfabrik Zug : die Wurzeln der Metall Zug";
+  rico:creationDate "2012"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_108084872099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "Tq 7533"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 1887-2012 - Metallwarenfabrik Zug : die Wurzeln der Metall Zug";
+  rico:hasOrHadName "Instantiation - 1887-2012 - Metallwarenfabrik Zug : die Wurzeln der Metall Zug";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q113405 .
+
+wd:Q113405 a rico:CorporateBody;
+  rdfs:label "Metall Zug";
+  rico:hasOrHadName "Metall Zug" .
+
+<E03_108209734099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "108209734099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_108209734099_001>;
+  rdfs:label "Abriss zur Geschichte der Theater- und Musikgesellschaft Zug, gegründet im Jahr 1808";
+  rico:hasOrHadName "Abriss zur Geschichte der Theater- und Musikgesellschaft Zug, gegründet im Jahr 1808";
+  rico:hasCreator <http://example.org/base/Brändle,%20Johann>;
+  rico:creationDate "1989"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Broschüre>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_108209734099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "TBq 885"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Abriss zur Geschichte der Theater- und Musikgesellschaft Zug, gegründet im Jahr 1808";
+  rico:hasOrHadName "Instantiation - Abriss zur Geschichte der Theater- und Musikgesellschaft Zug, gegründet im Jahr 1808";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Brändle> .
+
+<http://example.org/base/Brändle,%20Johann> a rico:Person;
+  rdfs:label "Brändle, Johann";
+  rico:hasOrHadName "Brändle, Johann" .
+
+<http://example.org/base/Brändle> a rico:Person;
+  rdfs:label "Brändle";
+  rico:hasOrHadName "Brändle" .
+
+<E03_ZUG00100000446> a rico:RecordSet;
+  rico:hasOrHadIdentifier "ZUG00100000446"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_ZUG00100000446_001>;
+  rdfs:label "EVZ 1974 : Pressespiegel Teil 1";
+  rico:hasOrHadName "EVZ 1974 : Pressespiegel Teil 1";
+  rico:hasCreator wd:Q662592;
+  rico:creationDate "1975"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_ZUG00100000446_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBq 4270"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - EVZ 1974 : Pressespiegel Teil 1";
+  rico:hasOrHadName "Instantiation - EVZ 1974 : Pressespiegel Teil 1";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_ZUG00100001357> a rico:RecordSet;
+  rico:hasOrHadIdentifier "ZUG00100001357"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_ZUG00100001357_001>;
+  rdfs:label "Crypto AG: 60 years of information security solutions";
+  rico:hasOrHadName "Crypto AG: 60 years of information security solutions";
+  rico:creationDate "2012"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q68144;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Englisch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_ZUG00100001357_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "AT 9814"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Crypto AG: 60 years of information security solutions";
+  rico:hasOrHadName "Instantiation - Crypto AG: 60 years of information security solutions";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q665539 .
+
+wd:Q665539 a rico:CorporateBody;
+  rdfs:label "Crypto AG";
+  rico:hasOrHadName "Crypto AG" .
+
+<E03_100720330099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "100720330099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_100720330099_001>;
+  rdfs:label "1953 - Stimmrecht der Geschichte : sieben Ansprachen";
+  rico:hasOrHadName "1953 - Stimmrecht der Geschichte : sieben Ansprachen";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1953"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q72;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_100720330099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "T 3716"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - 1953 - Stimmrecht der Geschichte : sieben Ansprachen";
+  rico:hasOrHadName "Instantiation - 1953 - Stimmrecht der Geschichte : sieben Ansprachen";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Artemis> .
+
+<http://example.org/base/Artemis> a rico:CorporateBody;
+  rdfs:label "Artemis";
+  rico:hasOrHadName "Artemis" .
+
+wd:Q72 a rico:Place;
+  rdfs:label "Zürich ";
+  rico:hasOrHadName "Zürich " .
+
+<E03_105035426099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105035426099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105035426099_001>;
+  rdfs:label "Niklaus von Flüe";
+  rico:hasOrHadName "Niklaus von Flüe";
+  rico:hasCreator wd:Q532343;
+  rico:creationDate "1938"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q72;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105035426099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATB 2961"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Niklaus von Flüe";
+  rico:hasOrHadName "Instantiation - Niklaus von Flüe";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher <http://example.org/base/Atlantis> .
+
+<http://example.org/base/Atlantis> a rico:CorporateBody;
+  rdfs:label "Atlantis";
+  rico:hasOrHadName "Atlantis" .
+
+<E03_107218883099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "107218883099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_107218883099_001>;
+  rdfs:label "Der Besuch der alten Dame : eine tragische Komödie, Neufassung 1980";
+  rico:hasOrHadName "Der Besuch der alten Dame : eine tragische Komödie, Neufassung 1980";
+  rico:hasCreator wd:Q104055020;
+  rico:creationDate "1998"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q72;
+  rico:contentType <Buch>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_107218883099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "S 2648.5"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Der Besuch der alten Dame : eine tragische Komödie, Neufassung 1980";
+  rico:hasOrHadName "Instantiation - Der Besuch der alten Dame : eine tragische Komödie, Neufassung 1980";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q1226810 .
+
+wd:Q104055020 a rico:Person;
+  rdfs:label "Dürrenmatt, Friedrich";
+  rico:hasOrHadName "Dürrenmatt, Friedrich" .
+
+wd:Q1226810 a rico:CorporateBody;
+  rdfs:label "Diogenes";
+  rico:hasOrHadName "Diogenes" .
+
+<E03_400050632099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "400050632099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_400050632099_001>;
+  rdfs:label "ArbeiterInnen in der Metallwarenfabrik Zug 1900-1914";
+  rico:hasOrHadName "ArbeiterInnen in der Metallwarenfabrik Zug 1900-1914";
+  rico:hasCreator <http://example.org/base/Lippuner,%20Sabine>;
+  rico:creationDate "1995"^^xsd:date;
+  rico:isAssociatedWithPlace wd:Q72;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Buch>;
+  rico:hasOrHadHolder wd:Q14848231 .
+
+<E06_400050632099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "E 1063"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - ArbeiterInnen in der Metallwarenfabrik Zug 1900-1914";
+  rico:hasOrHadName "Instantiation - ArbeiterInnen in der Metallwarenfabrik Zug 1900-1914";
+  rico:hasOrHadHolder wd:Q14848231;
+  rico:hasOrHadPublisher <http://example.org/base/Typoscript> .
+
+<http://example.org/base/Lippuner,%20Sabine> a rico:Person;
+  rdfs:label "Lippuner, Sabine";
+  rico:hasOrHadName "Lippuner, Sabine" .
+
+wd:Q14848231 a rico:CorporateBody;
+  rdfs:label "Staatsarchiv Zug" .
+
+<http://example.org/base/Typoscript> a rico:CorporateBody;
+  rdfs:label "Typoscript";
+  rico:hasOrHadName "Typoscript" .
+
+<E03_105150851099> a rico:RecordSet;
+  rico:hasOrHadIdentifier "105150851099"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_105150851099_001>;
+  rdfs:label "\"Kinder sind des Staates grösste Schätze\" : ein Familienfest zum 70. Geburtstag von alt Bundesrat Dr. Philipp Etter (9999/99)";
+  rico:hasOrHadName "\"Kinder sind des Staates grösste Schätze\" : ein Familienfest zum 70. Geburtstag von alt Bundesrat Dr. Philipp Etter (9999/99)";
+  rico:hasCreator wd:Q532343;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_105150851099_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "ATBf 84"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - \"Kinder sind des Staates grösste Schätze\" : ein Familienfest zum 70. Geburtstag von alt Bundesrat Dr. Philipp Etter (9999/99)";
+  rico:hasOrHadName "Instantiation - \"Kinder sind des Staates grösste Schätze\" : ein Familienfest zum 70. Geburtstag von alt Bundesrat Dr. Philipp Etter (9999/99)";
+  rico:hasOrHadHolder wd:Q856475 .
+
+wd:Q532343 a rico:Person;
+  rdfs:label "Etter, Philipp";
+  rico:hasOrHadName "Etter, Philipp" .
+
+wd:Q856475 a rico:CorporateBody;
+  rdfs:label "Bibliothek Zug" .
+
+<E03_103831000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "103831000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_103831360589_001>;
+  rdfs:label "Monatsprogramm - Theater Casino Zug (2016/4) (Mai-Juni)";
+  rico:hasOrHadName "Monatsprogramm - Theater Casino Zug (2016/4) (Mai-Juni)";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "2016"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_103831360589_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTf 13"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Monatsprogramm - Theater Casino Zug (2016/4) (Mai-Juni)";
+  rico:hasOrHadName "Instantiation - Monatsprogramm - Theater Casino Zug (2016/4) (Mai-Juni)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+wd:Q112709824 a rico:CorporateBody;
+  rdfs:label "Theater- und Musikgesellschaft (Zug)", "TMGZ";
+  rico:hasOrHadName "Theater- und Musikgesellschaft (Zug)", "TMGZ" .
+
+<E03_113951000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "113951000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_113950720498_001>;
+  rdfs:label "Eiszeit : das Magazin zum EVZ (2017/3)";
+  rico:hasOrHadName "Eiszeit : das Magazin zum EVZ (2017/3)";
+  rico:hasCreator wd:Q662592;
+  rico:creationDate "2017"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_113950720498_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 350"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Eiszeit : das Magazin zum EVZ (2017/3)";
+  rico:hasOrHadName "Instantiation - Eiszeit : das Magazin zum EVZ (2017/3)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+wd:Q662592 a rico:CorporateBody;
+  rdfs:label "EVZ";
+  rico:hasOrHadName "EVZ" .
+
+<E03_252756000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "252756000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_252755831856_001>;
+  rdfs:label "Eiszeit : das Magazin zum EVZ (2020/Saison 19/20 Nr. 5)";
+  rico:hasOrHadName "Eiszeit : das Magazin zum EVZ (2020/Saison 19/20 Nr. 5)";
+  rico:hasCreator wd:Q662592;
+  rico:creationDate "2020"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_252755831856_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 350"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Eiszeit : das Magazin zum EVZ (2020/Saison 19/20 Nr. 5)";
+  rico:hasOrHadName "Instantiation - Eiszeit : das Magazin zum EVZ (2020/Saison 19/20 Nr. 5)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_312018000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "312018000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_312017856767_001>;
+  rdfs:label "Monatsprogramm - Theater Casino Zug (2016/1) (Jan-Feb)";
+  rico:hasOrHadName "Monatsprogramm - Theater Casino Zug (2016/1) (Jan-Feb)";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "2016"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_312017856767_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTf 13"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Monatsprogramm - Theater Casino Zug (2016/1) (Jan-Feb)";
+  rico:hasOrHadName "Instantiation - Monatsprogramm - Theater Casino Zug (2016/1) (Jan-Feb)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+<E03_325138000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "325138000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_325138364147_001>;
+  rdfs:label "Eiszeit : das Magazin zum EVZ (2017/2)";
+  rico:hasOrHadName "Eiszeit : das Magazin zum EVZ (2017/2)";
+  rico:hasCreator wd:Q662592;
+  rico:creationDate "2017"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_325138364147_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 350"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Eiszeit : das Magazin zum EVZ (2017/2)";
+  rico:hasOrHadName "Instantiation - Eiszeit : das Magazin zum EVZ (2017/2)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_483503000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "483503000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_483503116421_001>;
+  rdfs:label "Die neue Zuger Höhenklinik Adelheid";
+  rico:hasOrHadName "Die neue Zuger Höhenklinik Adelheid";
+  rico:hasCreator <http://example.org/base/Scheidegger,%20Ueli>;
+  rico:contentType <Benutzung%20vor%20Ort>;
+  rico:hasOrHadLanguage <Deutsch>;
+  rico:hasRepresentationType <Artikel>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_483503116421_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 55.1999"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Die neue Zuger Höhenklinik Adelheid";
+  rico:hasOrHadName "Instantiation - Die neue Zuger Höhenklinik Adelheid";
+  rico:hasOrHadHolder wd:Q856475 .
+
+<http://example.org/base/Scheidegger,%20Ueli> a rico:Person;
+  rdfs:label "Scheidegger, Ueli";
+  rico:hasOrHadName "Scheidegger, Ueli" .
+
+<E03_493053000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "493053000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_493053125605_001>;
+  rdfs:label "Saison - Theater Casino Zug : Veranstaltungen der Theater- und Musikgesellschaft Zug (2014/2014:2015)";
+  rico:hasOrHadName "Saison - Theater Casino Zug : Veranstaltungen der Theater- und Musikgesellschaft Zug (2014/2014:2015)";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "2014"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_493053125605_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 278"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Saison - Theater Casino Zug : Veranstaltungen der Theater- und Musikgesellschaft Zug (2014/2014:2015)";
+  rico:hasOrHadName "Instantiation - Saison - Theater Casino Zug : Veranstaltungen der Theater- und Musikgesellschaft Zug (2014/2014:2015)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+<E03_512731000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "512731000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_512731044177_001>;
+  rdfs:label "Eiszeit : das Magazin zum EVZ (2018/7)";
+  rico:hasOrHadName "Eiszeit : das Magazin zum EVZ (2018/7)";
+  rico:hasCreator wd:Q662592;
+  rico:creationDate "2018"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_512731044177_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 350"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Eiszeit : das Magazin zum EVZ (2018/7)";
+  rico:hasOrHadName "Instantiation - Eiszeit : das Magazin zum EVZ (2018/7)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_740237000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "740237000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_740236753549_001>;
+  rdfs:label "Eiszeit : das Magazin zum EVZ (2017/5)";
+  rico:hasOrHadName "Eiszeit : das Magazin zum EVZ (2017/5)";
+  rico:hasCreator wd:Q662592;
+  rico:creationDate "2017"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_740236753549_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 350"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Eiszeit : das Magazin zum EVZ (2017/5)";
+  rico:hasOrHadName "Instantiation - Eiszeit : das Magazin zum EVZ (2017/5)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_745461000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "745461000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_745460571926_001>;
+  rdfs:label "Monatsprogramm - Theater Casino Zug (2016/2) (März)";
+  rico:hasOrHadName "Monatsprogramm - Theater Casino Zug (2016/2) (März)";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "2016"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_745460571926_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTf 13"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Monatsprogramm - Theater Casino Zug (2016/2) (März)";
+  rico:hasOrHadName "Instantiation - Monatsprogramm - Theater Casino Zug (2016/2) (März)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
+
+<E03_769810000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "769810000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_769810053336_001>;
+  rdfs:label "Eiszeit : das Magazin zum EVZ (2019/3)";
+  rico:hasOrHadName "Eiszeit : das Magazin zum EVZ (2019/3)";
+  rico:hasCreator wd:Q662592;
+  rico:creationDate "2019"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_769810053336_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTq 350"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Eiszeit : das Magazin zum EVZ (2019/3)";
+  rico:hasOrHadName "Instantiation - Eiszeit : das Magazin zum EVZ (2019/3)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q662592 .
+
+<E03_781197000000> a rico:RecordSet;
+  rico:hasOrHadIdentifier "781197000000"^^<localSoftwareID>;
+  rico:recordResourceToInstantiationRelationHasTarget <E06_781196871959_001>;
+  rdfs:label "Monatsprogramm - Theater Casino Zug (2016/3) (April)";
+  rico:hasOrHadName "Monatsprogramm - Theater Casino Zug (2016/3) (April)";
+  rico:hasCreator wd:Q112709824;
+  rico:creationDate "2016"^^xsd:date;
+  rico:contentType <T-Periodika>;
+  rico:hasOrHadLanguage <Unbekannt>;
+  rico:hasRepresentationType <Zeitschrift>;
+  rico:hasOrHadHolder wd:Q856475 .
+
+<E06_781196871959_001> a rico:Instantiation;
+  rico:hasOrHadIdentifier "PTf 13"^^<localHolderRefCode>;
+  rdfs:label "Instantiation - Monatsprogramm - Theater Casino Zug (2016/3) (April)";
+  rico:hasOrHadName "Instantiation - Monatsprogramm - Theater Casino Zug (2016/3) (April)";
+  rico:hasOrHadHolder wd:Q856475;
+  rico:hasOrHadPublisher wd:Q112709824 .
