@@ -1,0 +1,49 @@
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX wd: <https://www.wikidata.org/wiki/>
+PREFIX : <http://example.com/base/>
+
+####INSERT DATA FOR RECORDSETS DERIVED FROM THE SPARQL QUERY WITH FILTER CONTAINS (?l, "Bibliothek")
+INSERT DATA 
+{
+:B_E03_80200	    rico:hasOrHadMainSubject	<https://geo.ld.admin.ch/location/address/101239133>.
+:B_E03_81843	    rico:hasOrHadMainSubject	<https://geo.ld.admin.ch/location/address/101239133>.
+:B_E03_81844        rico:hasOrHadMainSubject	<https://geo.ld.admin.ch/location/address/101239133>.
+:E03_100862737099	rico:hasOrHadMainSubject	<https://geo.ld.admin.ch/location/address/101239133>.
+:E03_146686         rico:hasOrHadMainSubject	wd:Q856475.
+:E03_105038373099   rico:hasOrHadMainSubject	wd:Q856475.
+
+:E03_105023025099	rico:hasCreator		        wd:Q856475.
+:E03_105063483099   rico:hasCreator		        wd:Q856475.
+:E03_105114727099	rico:hasCreator		        wd:Q856475.
+
+ <https://geo.ld.admin.ch/location/address/101239133> 	rico:isOrWasPhysicalLocationOf :E03_105114727099;
+														rico:isOrWasPhysicalLocationOf :E03_105063483099;
+														rico:isOrWasPhysicalLocationOf :E03_105038373099;
+														rico:isOrWasPhysicalLocationOf :E03_105023025099;
+														rico:isOrWasPhysicalLocationOf :E03_100862737099;
+														rico:isOrWasPhysicalLocationOf :E03_146686;
+														rico:isOrWasPhysicalLocationOf wd:Q856475;
+														
+														rico:isAssociatedWithPlace wd:Q856475.
+
+}
+
+
+####INSERT DATA FOR RECORDSETS DERIVED FROM THE SPARQL QUERY WITH FILTER CONTAINS (?l, "Kaserne")
+
+
+
+
+####INSERT DATA FOR RECORDSETS DERIVED FROM THE SPARQL QUERY WITH FILTER CONTAINS (?l, "Kornhaus")
+
+
+
+
+#### INSERT DATA FOR FORMER NAMES/FUNCTIONS OF THE CURRENT BUILDING OF THE LIBRARY OF ZUG #######
+INSERT DATA 
+{ 
+	<https://geo.ld.admin.ch/location/address/101239133> rico:hasOrHadPlaceName "Bibliothek Zug";
+														rico:hasOrHadPlaceName "Kaserne Zug";
+														rico:hasOrHadPlaceName "Kornhaus".
+}
+
