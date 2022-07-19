@@ -1,0 +1,21 @@
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX wd: <https://www.wikidata.org/wiki/>
+PREFIX : <http://example.com/base/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+####INSERT DATA FOR RECORDSETS DERIVED FROM THE SPARQL QUERY WITH FILTER CONTAINS (?l, "Kaserne")
+INSERT DATA{
+:A_E03_15054    rico:hasOrHadMainSubject <https://geo.ld.admin.ch/location/address/101239133>.
+:B_E03_42317    rico:hasOrHadMainSubject <https://geo.ld.admin.ch/location/address/101239133>;
+                rico:creationDate "1939"^^xsd:date.
+:B_E03_27667    rico:hasOrHadMainSubject <https://geo.ld.admin.ch/location/address/101239133>.
+:B_E03_29550    rico:hasOrHadMainSubject <https://geo.ld.admin.ch/location/address/101239133>.
+:B_E03_42659    rico:hasOrHadMainSubject <https://geo.ld.admin.ch/location/address/101239133>.
+:B_E03_37878    rico:hasOrHadMainSubject <https://geo.ld.admin.ch/location/address/101239133>.
+:B_E03_94109    rico:hasOrHadSubject     <https://geo.ld.admin.ch/location/address/101239133>.
+
+<https://geo.ld.admin.ch/location/address/101239133> 	rico:isOrWasPhysicalLocationOf :A_E03_15054.
+}

@@ -1,0 +1,13 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select * where 
+{	?rs rdf:type rico:RecordSet;
+     	rico:hasOrHadName ?l.
+    FILTER NOT EXISTS {?rs rico:isAssociatedWithPlace <https://geo.ld.admin.ch/location/address/101239133>}.
+    FILTER NOT EXISTS {?rs rico:hasOrHadMainSubject <https://geo.ld.admin.ch/location/address/101239133>}.
+    FILTER CONTAINS(?l, "Kaserne").
+}
+
+
