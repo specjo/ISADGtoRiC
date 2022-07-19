@@ -1,0 +1,38 @@
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+
+################## Query for RecordSets regarding Katharina Weiss ##################
+SELECT * WHERE
+
+    {
+?r rdf:type rico:RecordSet.
+?r rico:hasOrHadName ?rName.
+   FILTER contains(?rName,"Weiss") 
+?r rico:hasCreator ?c.
+?c rico:hasOrHadName ?cName.
+    }
+
+
+################### Query for RecordSets regarding Philipp Etter ##################
+SELECT * WHERE
+{
+
+?r rdf:type rico:RecordSet.
+?r rico:hasOrHadName ?rName.
+   FILTER contains(?rName,"Etter") 
+?r rico:hasCreator ?c.
+?c rico:hasOrHadName ?cName.
+}
+
+################### Query for RecordSets regarding Dagobrt Keiser (senior and junior) ##################
+SELECT * WHERE
+{
+
+?r rdf:type rico:RecordSet.
+?r rico:hasOrHadName ?rName.
+   FILTER contains(?rName,"Keiser") 
+?r rico:hasCreator ?c.
+?c rico:hasOrHadName ?cName.
+}
+

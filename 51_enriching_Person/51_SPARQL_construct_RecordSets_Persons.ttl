@@ -1,0 +1,21 @@
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wd: <https://www.wikidata.org/wiki/>
+ 
+CONSTRUCT  {
+    ?node rdf:type ?PersonClass.
+    ?PersonClass ?edge ?Person.
+    ?Person ?edge2 ?any.
+}
+
+WHERE {
+   ?node rdf:type ?PersonClass.
+   ?Person ?edge rico:Person.
+   ?Person ?edge2 ?any.
+
+    filter ( ?Person = wd:Q532343 || 
+        	 ?Person = wd:Q78065032 ||
+    		 ?Person = wd:Q78065037 ||
+    		 ?Person = wd:Q98931764).
+}

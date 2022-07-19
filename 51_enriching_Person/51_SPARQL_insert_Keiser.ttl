@@ -1,0 +1,70 @@
+PREFIX rico:  <https://www.ica.org/standards/RiC/ontology#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd:    <https://www.wikidata.org/wiki/>
+
+################ DELETE "wrong" IRI ################
+DELETE DATA
+      {
+<http://example.com/base/E03_105130916099> rico:hasCreator <https://hls-dhs-dss.ch/de/articles/042168/2014-11-26/>.
+<https://hls-dhs-dss.ch/de/articles/042168/2014-11-26/> a rico:Person;
+                                                        rdfs:label "Keiser, Dagobert";
+                                                        rico:hasOrHadName "Keiser, Dagobert" .  }
+ 
+
+################### ADD "corrected IRI" ##################
+INSERT DATA
+      { 
+<http://example.com/base/E03_105130916099> rico:hasCreator wd:Q78065037.    
+
+wd:Q78065037        a  rico:Person;
+                    rdfs:label "Keiser, Dagobert (jun.)";
+                    rico:hasOrHadName "Keiser, Dagobert". }
+
+
+################### ADD additional information regarding Dagobert Keiser jun. ##################
+INSERT DATA
+    {                 
+wd:Q78065037        rico:birthDate "1879/10/12"^^xsd:date;
+                    rico:deathDate "1959/05/22"^^xsd:date;
+                    rico:isAssociatedWithPlace wd:Q68144; #City of Zug
+                    rico:isCreatorOf <https://geo.ld.admin.ch/location/address/100293767>; #Theater Casino Zug
+                    rico:isCreatorOf <https://geo.ld.admin.ch/location/address/100306366>; #Kantonals Verwaltungsgebäude
+                    rico:isCreatorOf <https://geo.ld.admin.ch/location/address/100307000>; #Neustadtschulhaus Zug
+                    rico:isCreatorOf <https://geo.ld.admin.ch/location/address/101775735>; #Sanatorium Adelheid
+                    rico:hasOrHadOccupationOfType wd:Q42973; 
+                    rico:isChildOf wd:Q78065032. #Keiser, Dagobert (sen.)
+
+wd:Q42973 rdfs:label "Architect".
+<https://geo.ld.admin.ch/location/address/100293767>  a rico:Place;
+                                                      rdfs:label "Theater Casino Zug". 
+<https://geo.ld.admin.ch/location/address/100306366>  a rico:Place;
+                                                      rdfs:label "Kantonales Verwaltungsgebäude".                                               
+<https://geo.ld.admin.ch/location/address/101775735> a rico:Place;
+                                                      rdfs:label "Sanatorium Adelheid".  
+  }
+
+################### ADD additional information regarding Dagobert Keiser sen. ##################
+
+INSERT DATA
+      { 
+wd:Q78065032        a  rico:Person;
+                    rdfs:label "Keiser, Dagobert (sen.)";
+                    rico:hasOrHadName "Keiser, Dagobert";
+                    rico:birthDate "1847/03/22"^^xsd:date;
+                    rico:deathDate "1906/02/09"^^xsd:date;
+                    rico:isAssociatedWithPlace wd:Q68144; #City of Zug
+                    rico:isCreatorOf <https://geo.ld.admin.ch/location/address/100306178>; #Hotel Ochsen Zug
+                    rico:isCreatorOf <https://geo.ld.admin.ch/location/address/100002474>; #Turnhalle Burgbach
+                    rico:isCreatorOf <https://geo.ld.admin.ch/location/address/100306344>;#Zeughaus Zug
+                    rico:hasOrHadOccupationOfType wd:Q42973;  
+                    rico:hasOrHadOccupationOfType wd:Q11518629.
+                    
+wd:Q11518629 rdfs:label "Timber merchant".
+<https://geo.ld.admin.ch/location/address/100306178>  a rico:Place;
+                                                      rdfs:label "Hotel Ochsen Zug".
+<https://geo.ld.admin.ch/location/address/100002474>  a rico:Place; 
+                                                      rdfs:label "Turnhalle Burgbach".
+<https://geo.ld.admin.ch/location/address/100306344>  a rico:Place;
+                                                      rdfs:label "Zeughaus Zug". }
+
+
