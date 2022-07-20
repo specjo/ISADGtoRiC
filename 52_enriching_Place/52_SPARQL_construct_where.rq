@@ -1,0 +1,24 @@
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ 
+CONSTRUCT  
+{
+    ?node   ?edge   ?s1.
+    ?q      ?edge2  ?node.
+    ?s1     rico:hasOrHadHolder ?h1.
+    ?q      rico:hasOrHadHolder ?h2.
+    ?s1     rico:contentType ?c1.
+    ?q      rico:contentType ?c2.
+}
+
+WHERE 
+{ 
+    ?node   ?edge   ?s1.
+    ?q      ?edge2  ?node.
+    ?s1         rico:hasOrHadHolder ?h1.
+    ?q          rico:hasOrHadHolder ?h2.
+    OPTIONAL{?s1    rico:contentType ?c1}.
+    OPTIONAL{?q     rico:contentType ?c2}.
+}
+
+
