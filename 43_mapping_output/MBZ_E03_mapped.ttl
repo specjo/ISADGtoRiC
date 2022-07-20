@@ -1,0 +1,325 @@
+@base <http://example.com/base/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix ricrst: <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#> .
+
+<A_E03_15054> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_15054>;
+  rico:hasOrHadName "Fotografie der Ostfassade der heutigen Stadt- und Kantonsbibliothek, ehemals Kornhaus, dann Kaserne"@de;
+  rdfs:label "Fotografie der Ostfassade der heutigen Stadt- und Kantonsbibliothek, ehemals Kornhaus, dann Kaserne"@de;
+  rico:scopeAndContent "Das Gebäude in der Funktion der Kaserne, mit Wachtposten davor."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q111594077> .
+
+<A_E03_3607> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_3607>;
+  rico:hasOrHadName "Gaumertafel der Nachbarschaft Unteraltstadt/Kornmarkt und der Nachbarschaft Weinmarkt; Nachbarschaftstafel, Gaumettafel "@de;
+  rdfs:label "Gaumertafel der Nachbarschaft Unteraltstadt/Kornmarkt und der Nachbarschaft Weinmarkt; Nachbarschaftstafel, Gaumettafel "@de;
+  rico:scopeAndContent """Beidseitig bemalte Holztafel mit Öse zum Aufhängen.
+
+Vorderseite: Gaumertafel der Nachbarschaft Unteraltstadt/\"Kornmarkt\" und Inschrift (siehe Grunddaten, Inschrift). Dargestellt ist der Kornhandel vor dem stilisiert dargestellten Kornhaus.
+
+Rückseite: Gaumertafel der Nachbarschaft \"Weinmarkt\" und Inschrift (siehe Grunddaten, Inschrift)."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186> .
+
+<A_E03_4076> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_4076>;
+  rico:hasOrHadName "Postkarte, Ansichten von Zug (5 Fotografien/Postkarten); 5 Postkarten, 3 x Seegfrörni 1929 Zug, 1 x Seegfrörni 1963 Zug, 1 x Flugaufnahme Zug"@de;
+  rdfs:label "Postkarte, Ansichten von Zug (5 Fotografien/Postkarten); 5 Postkarten, 3 x Seegfrörni 1929 Zug, 1 x Seegfrörni 1963 Zug, 1 x Flugaufnahme Zug"@de;
+  rico:scopeAndContent """3 Fotografien/Postkarte der Seegfrörni 1929 auf dem Zugersee.
+1 Postkarte/Fotografie der Seegfrörni 1963 auf dem Zugersee.
+1 Postkarte/Fotografie mit einer Flugaufnahme von Zug."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186> .
+
+<A_E03_4136> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_4136>;
+  rico:hasOrHadName "Fotografie, Seegfrörni in Zug (Frau Mariani) vom März 1929 (Seegfrörni 1929 in Zug)"@de;
+  rdfs:label "Fotografie, Seegfrörni in Zug (Frau Mariani) vom März 1929 (Seegfrörni 1929 in Zug)"@de;
+  rico:scopeAndContent "In braunem Holzrahmen. Druck (kein Originalfoto)."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186> .
+
+<A_E03_11374> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_11374>;
+  rico:hasOrHadName "Fotografie, Ansicht der Zuger Altstadt vom zugefrorenen See aus (Seegfrörni 1929 in Zug)"@de;
+  rdfs:label "Fotografie, Ansicht der Zuger Altstadt vom zugefrorenen See aus (Seegfrörni 1929 in Zug)"@de;
+  rico:scopeAndContent "Teil der Zuger Altstadt mit Hotel Schiff, Zytturm und Brauerei zum Hecht vom zugefrorenen See aus, fotografiert im März 1929."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186> .
+
+<A_E03_18451> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18451>;
+  rico:hasOrHadName "Ansichtskarte, Familien Kleimann und Spillmann auf dem gefrorenen Zugersee (Seegfrörni 1929 in Zug)"@de;
+  rdfs:label "Ansichtskarte, Familien Kleimann und Spillmann auf dem gefrorenen Zugersee (Seegfrörni 1929 in Zug)"@de;
+  rico:scopeAndContent "Querrechteckige schwarzweisse Aufnahme auf cremefarbenem Papier mit schmalem Rand (rechts breit). Bildseite: Aufnahme der Familien Kleimann (rechts) und Spillmann (links) mit Kindern und Hund auf dem gefrorenen Zugersee, im Hintergrund die Stadt. Textseite: schwarzer Adresszeilenvordruck, unten links Vermerk zu den Dargestellten und Datierung in schwarzer Tinte."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186> .
+
+<A_E03_3310> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_3310>;
+  rico:hasOrHadName "Buch, 150 Jahre Theater- und Musikgesellschaft Zug, Festschrift 1809-1959"@de;
+  rdfs:label "Buch, 150 Jahre Theater- und Musikgesellschaft Zug, Festschrift 1809-1959"@de;
+  rico:scopeAndContent "Buch."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q112709824> .
+
+<A_E03_3314> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_3314>;
+  rico:hasOrHadName "Fotografie, Aufführung \"Zigeunerbaron\" der Theater und Musikgesellschaft Zug"@de;
+  rdfs:label "Fotografie, Aufführung \"Zigeunerbaron\" der Theater und Musikgesellschaft Zug"@de;
+  rico:scopeAndContent "Aufführung \"Zigeunerbaron\" der Theater und Musikgesellschaft Zug."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q112709824> .
+
+<A_E03_11728> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_11728>;
+  rico:hasOrHadName "Bühne im Theater Casino Zug"@de;
+  rdfs:label "Bühne im Theater Casino Zug"@de;
+  rico:scopeAndContent """Ansicht der Bühne im Theater-Casino Zug, fotografiert kurz nach der Eröffnung.
+Neuer Abzug."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.foto-ch.ch/?a=fotograph&id=22023> .
+
+<A_E03_18750> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18750>;
+  rico:hasOrHadName "Zeichnung, Skizze einer sitzenden Figur von einer Aufführung der Theater- und Musikgesellschaft Zug "@de;
+  rdfs:label "Zeichnung, Skizze einer sitzenden Figur von einer Aufführung der Theater- und Musikgesellschaft Zug "@de;
+  rico:scopeAndContent """Hochformatige, kolorierte Skizze einer sitzenden Figur in ockergelber Hose, dunkelbrauner Jacke und mit schwarzer Schleifen am Hals, unten links Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt.
+Ursprünglich gerahmt und passepartouriert."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q2560801> .
+
+<A_E03_18751> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18751>;
+  rico:hasOrHadName "Zeichnung, Skizze der Jadwiga Pawlowa aus dem Stück \"Polenblut\" der Theater- und Musikgesellschaft Zug im Casino Zug"@de;
+  rdfs:label "Zeichnung, Skizze der Jadwiga Pawlowa aus dem Stück \"Polenblut\" der Theater- und Musikgesellschaft Zug im Casino Zug"@de;
+  rico:scopeAndContent """Hochformatige, kolorierte Skizze einer Frau in rosa-grau-schwarzem Kleid mit Hut mit grünem Schleider, ein Lorgnon in ihrer linken Hand haltend, dunkelgrau-blauer Hintergrund, Hut angestückt, unten rechts Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt, auf Karton unten links in brauner Tinte Angabe der Figur und des Theaterstücks sowie Datierung, unten rechts Name der Schauspielerin(?), auf Rückseite unten links Angabe zur Rahmung in Bleistift.
+Ursprünglich gerahmt und passepartouriert."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q2560801> .
+
+<A_E03_18752> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18752>;
+  rico:hasOrHadName "Zeichnung, Skizze des Grafen Boléslaw Barànski aus dem Stück \"Polenblut\" der Theater- und Musikgesellschaft Zug im Casino Zug"@de;
+  rdfs:label "Zeichnung, Skizze des Grafen Boléslaw Barànski aus dem Stück \"Polenblut\" der Theater- und Musikgesellschaft Zug im Casino Zug"@de;
+  rico:scopeAndContent """Hochformatige, kolorierte Skizze eines Adligen im weinrot-gelben Gewand mit Hut und schwarzen Stiefeln, seinen rechten Arm in die Hüfte gestützt, gelber Hintergrund, unten rechts Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt, auf Karton unten links in brauner Tinte Angabe der Figur und des Theaterstücks sowie Datierung, unten rechts Name des Schauspielers(?), auf Rückseite unten links Angabe zur Rahmung in Bleistift.
+Ursprünglich gerahmt und passepartouriert."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q2560801> .
+
+<A_E03_18753> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18753>;
+  rico:hasOrHadName "Zeichnung, Skizze einer Strassenszene mit uniformiertem Reiter, von einer Aufführung der Theater- und Musikgesellschaft Zug"@de;
+  rdfs:label "Zeichnung, Skizze einer Strassenszene mit uniformiertem Reiter, von einer Aufführung der Theater- und Musikgesellschaft Zug"@de;
+  rico:scopeAndContent """Hochformatige, kolorierte Skizze eines rot uniformiertem Reiters auf einem dunkelbraunen Pferd auf einer Strasse mit Laternen, links ein rothaariger Mann in grüner Schürze, zum Reiter aufschauend, im Vordergrund rechts eine Dame im blaugrünen Kleid in Rückenansicht, im Hintergrund Häuserzeile, unten rechts Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt.
+Ursprünglich gerahmt und passepartouriert."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q2560801> .
+
+<A_E03_9102> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_9102>;
+  rico:hasOrHadName "Porträt Anna Bossard-Schwerzmann (1862-1923)"@de;
+  rdfs:label "Porträt Anna Bossard-Schwerzmann (1862-1923)"@de;
+  rico:scopeAndContent "Porträt Anna Bossard-Schwerzmann (1862-1923), Gattin des Ochsenwirts in Zug."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_9506> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_9506>;
+  rico:hasOrHadName "4 Porträtfotos (Visitenkartenbilder)"@de;
+  rdfs:label "4 Porträtfotos (Visitenkartenbilder)"@de;
+  rico:scopeAndContent """- 2 ovale schwarzweisse Damenbrustporträts, aufgezogen auf Karton im Visitenkartenbildformat
+- 1 schwarzweisses Porträtfoto eines Jünglings; auf der Rückseite handschriftliche Angabe \"Student Lampert\"
+- 1 schwarzweisses Doppelporträt eines Ehepaars, verblichen."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_10605> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_10605>;
+  rico:hasOrHadName "3 Fotos Anna Lucia Kerckhoffs (1889-1894)"@de;
+  rdfs:label "3 Fotos Anna Lucia Kerckhoffs (1889-1894)"@de;
+  rico:scopeAndContent "3 fotografische Porträts von Anna Lucia Kerchhoff als kleines Mädchen; zwei davon identisch von Katharina Weiss, das dritte ohne Bezeichnung, aber hinter Glas in einem Stellrahmen gerahmt."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_11623> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_11623>;
+  rico:hasOrHadName "Fotos diverser Schweizer und europäischer Fotografen (Leidbilchen, Porträtfotos, Erinnerungsbilder, Landschaften und Gebäude) und Postkarten aus Familie Spillmann-Waller, dazugehörige Alben; Totenbildchen, Totenbild, Leidbild, Helgeli"@de;
+  rdfs:label "Fotos diverser Schweizer und europäischer Fotografen (Leidbilchen, Porträtfotos, Erinnerungsbilder, Landschaften und Gebäude) und Postkarten aus Familie Spillmann-Waller, dazugehörige Alben; Totenbildchen, Totenbild, Leidbild, Helgeli"@de;
+  rico:scopeAndContent """Porträtfotos diverser Fotografen: u.a.
+- Eduard Weiss, Zug
+- A. Albrecht, Zug
+- Johann Grau, Zug
+- Ateliers Bürgi, Unter-Ägeri
+- Jules Bonnet, Luzern
+- S. Vogelsanger, Basel
+- Gebrüder Taeschler, Hamburg, Edinburg u.a.
+- Mueller & Vanoni, Herisau
+- Emil Vollneweider, Bern
+- F. Solza, Genf
+- C. Ruf, Basel
+- F. Brandseph
+- E. Gassler, Zürich
+- J. Ganz, Zürich
+- Johann Frey, Luzern
+- J. J. Walder
+- Ch. Meyer, St. Gallen
+- J. Jungmann, Basel
+- Louis Zumbühl, Stans, Schwyz
+- J. Jeanneret, Montreux
+
+Die Alben-Fotos sind auf Kärtchen aufgeklebt, auf deren Rückseite zumeist die jeweilige Adresse des Fotoateliers steht. Die Fotos werden von unten oder oben in die Albenseiten eingeschoben, die doppelseitig zu verwenden sind und offene Fenster für die Porträts haben. Die Fenster haben häufig eine gemalte oder geprägte Umrandung. Aus konservatorischen Gründen Trennung der Fotos von den Alben.
+
+Die Totengedenkbilder zeigen das Bildnis des Verstorbenen, Lebensdaten und Geleitworte. Die Bildnisse sind entweder Fotos oder Zeichnungen.
+Das dunkelbraune, querformatige, mit einem geprägten Lederband gebundene Album enthielt Helgelis. Innenseite aus hellbraunem Textil. Einlageblätter aus olivgrünem, dickem Papier. Totenbilder wurden mit Eckkleber arretiert.
+
+Alle Alben mit ornamentaler Prägung und Bemalung.
+
+Die Fotos und Helgelis stammen aus dem Haushalt von Johann Ernst (1878 - 1965) und Luise Sophie Spillmann-Waller (1879 - 1947), den Grosseltern des Donators."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764>, <https://www.foto-ch.ch/?a=fotograph&id=31026>,
+    <https://www.foto-ch.ch/?a=fotograph&id=29555> .
+
+<A_E03_13806> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_13806>;
+  rico:hasOrHadName "Dokumentation zur Familie Arnold ab Schwandegg: Fotoporträt Marie Arnold (1856-1926)"@de;
+  rdfs:label "Dokumentation zur Familie Arnold ab Schwandegg: Fotoporträt Marie Arnold (1856-1926)"@de;
+  rico:scopeAndContent "Fotokarte mit Ganzkörperporträt der Marie Arnold."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_13852> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_13852>;
+  rico:hasOrHadName "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Porträt des Kunstmalers Beat Jakob Stocker, fotografiertes Gemälde"@de;
+  rdfs:label "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Porträt des Kunstmalers Beat Jakob Stocker, fotografiertes Gemälde"@de;
+  rico:scopeAndContent """Porträt des Beat Jakob Stocker (1786-1866), Kunstmaler in Allenwinden. Vater von Josefa Crescentia Zürcher-Stocker (1824-1904).
+Katharina Weiss fotografierte das Gemälde Inv. Nr. 11172. Die Fotografie ist in zweifacher Ausführung vorhanden, wobei die ältere auf der Rückseite folgende Angaben aufweist: In Schwarz gedruckt: \"Photographie Kath. Weiss Koller-Mühle Zug.\" und handgeschrieben: \"Stocker v. Allenswinden\".
+Auf dem jüngeren Foto steht in goldener Farbe auf der Rückseite: \"Photographisches Atelier von Ffr. Khtr. Weiss Zug.\"
+
+Die Fotos zeigen Stockers Brustporträt in ovalem Ausschnitt.
+Das Bild klebt auch auf der Totentafel Inv. Nr. 13792."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_13854> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_13854>;
+  rico:hasOrHadName "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Ganzkörperporträt eine Mannes"@de;
+  rdfs:label "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Ganzkörperporträt eine Mannes"@de;
+  rico:scopeAndContent """Foto eines stehenden Mannes mit Zylinder und  geschulteter Tasche, der ein Fernglas in seinen Händen hält. Neben ihm steht ein Schirm. Der Mann possiert vor einer Bergkulisse.
+Das Foto liegt in dreifacher Ausführung vor, in zwei verschiedenen Formaten.
+Auf der Rückseite des kleinen Fotos liegt die Inschrift um eine Illustration, die das Fotoatelier der Katharina Weiss zeigt. (Das Haus ist beschriftet).
+
+Auf einem der kleinen Fotos steht auf der Rückseite von Hand geschrieben: \"zu Grossvater\"."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_13863> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_13863>;
+  rico:hasOrHadName "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Foto einer unbekannten Frau"@de;
+  rdfs:label "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Foto einer unbekannten Frau"@de;
+  rico:scopeAndContent "Foto einer sitzenden Frau mit Haube."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_13865> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_13865>;
+  rico:hasOrHadName "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Foto eines unbekannten Mannes"@de;
+  rdfs:label "Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Foto eines unbekannten Mannes"@de;
+  rico:scopeAndContent "Foto eines unbekannten Mannes mit Schnauz und Kinnbart."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_15051> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_15051>;
+  rico:hasOrHadName "Fotografie: Ruine Wildenburg"@de;
+  rdfs:label "Fotografie: Ruine Wildenburg"@de;
+  rico:scopeAndContent "Leicht grünliche Fotografie der Ruine Wildenburg, die überwachsen ist, mit drei posierenden Männern."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_15223> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_15223>;
+  rico:hasOrHadName "4 Porträtfotografien: Familie Glutz-Spillmann, Cham (Visitenkartenbilder)"@de;
+  rdfs:label "4 Porträtfotografien: Familie Glutz-Spillmann, Cham (Visitenkartenbilder)"@de;
+  rico:scopeAndContent """Vier schwarz-weiss Portraitfotografien von der Familie Glutz-Spillmann in Cham. 3x Büsten-Fotografien, 1x ganze Person.
+Die Fotografien sind aufgezogen auf Karton,  mit Visitenkartenbildformat.
+
+- Frau Louise Glutz-Spillmann, Cham
+- Herr Hauptmann Glutz, Cham (Gatte von Tante Louise)
+- Paul Glutz, Cham (Sohn von Tante Louise, gestorben im Januar 1957 in Zürich, beerdigt in Zug
+- Max Glutz, Cham (Sohn von Tante, Bruder von Paul Glutz in Zürich)
+
+Auf der Rückseite ist jeweils die teilweise die Adresse des Fotografen angegeben:
+- \"J. GANZ Photographisches ATELIER ZÜRICH Bahnhofstrasse 40, Filiale BRÜSSEL. Rue de l'Ecuyer 38\"
+- \"PHOTOGRAPHIE von JGFR. KATHR. WEISS. ZUG, Bahnhofs-Strasse\""""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_18441> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18441>;
+  rico:hasOrHadName "Carte de visite, Schreiner Alois Kleimann (1842-?)"@de;
+  rdfs:label "Carte de visite, Schreiner Alois Kleimann (1842-?)"@de;
+  rico:scopeAndContent "Hochrechteckige sepiafarbene Aufnahme auf beiger Karte, Schreiner Alois Kleimann im Anzug mit heller Hose und Weste und dunklem Jackett, stehend vor einem Tisch mit Stuhl, seine linke Hand auf den Tisch gestützt, rechts ein Vorhang, auf Rückseite gedrucktes rotes Firmenzeichen der Fotografin, oben handschriftlicher Vermerk zum Dargestellten mit Kugelschreiber, unten in Bleistift Fotonummer."@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_18486> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18486>;
+  rico:hasOrHadName "Fotografie, Porträt eines jungen Mannes; Visitenkartenbild, Carte de visite"@de;
+  rdfs:label "Fotografie, Porträt eines jungen Mannes; Visitenkartenbild, Carte de visite"@de;
+  rico:scopeAndContent """Ovale, schwarzweisse Poträtaufnahme eines jungen Mannes (Person unbekannt), aufgezogen auf Karton im Visitenkartenbildformat. Diese wiederum ist eingefügt in einem Passepartout (Öffnung oben und unten).
+
+Visitenkartenbild, Vorderseite: Ovales Einzelpoträt, Bruststück, Dreiviertelprofil. Der junge Mann trägt einen Schnurrbart, ein Hemd, Fliege und eine Anzugsjacke.
+
+Visitenkartenbild, Rückseite: Angaben der Fotografin Katharina Weiss, verziert mit Spruchband und Blumenranken (Siehe Inschrift)."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_18487> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18487>;
+  rico:hasOrHadName "Fotografie, Porträt eines Kindes; Visitenkartenbild, Carte de visite"@de;
+  rdfs:label "Fotografie, Porträt eines Kindes; Visitenkartenbild, Carte de visite"@de;
+  rico:scopeAndContent """Rechteckige, schwarzweisse Poträtaufnahme eines Kindes (Person unbekannt), aufgezogen auf Karton im Visitenkartenbildformat. Diese wiederum ist eingefügt in einem Passepartout (Öffnung oben und unten).
+
+Visitenkartenbild, Vorderseite: Rechteckiges Einzelpoträt, Ganzfigur, Dreiviertelprofil. Das Kind (Sehr wahrscheinlich ein Mädchen) trägt ein längs gestreiftes Rock-Kleid, stützt sich mit der rechten Hand auf einem Steinbrocken ab, in der linken Hand hält es einen kleinen Korb. Im Hintergrund ist eine Berglandschaft ersichtlich. Zuunterst Inschrift.
+
+Visitenkartenbild, Rückseite: Angaben der Fotografin Katharina Weiss, in der Mitte das Markenzeichen \"Wohn- und Atelierhaus im Chalet-Stil\" der Fotografin abgebildet (Siehe Inschrift)."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .
+
+<A_E03_18488> a rico:RecordSet;
+  rico:hasRecordSetType ricrst:File;
+  rico:recordResourceToInstantiationRelationHasTarget <A_E06_001_18488>;
+  rico:hasOrHadName "Fotografie, Porträt eines älteren Mannes; Visitenkartenbild, Carte de visite"@de;
+  rdfs:label "Fotografie, Porträt eines älteren Mannes; Visitenkartenbild, Carte de visite"@de;
+  rico:scopeAndContent """Rechteckige, schwarzweisse Poträtaufnahme eines älteren Mannes (Person unbekannt), aufgezogen auf Karton im Visitenkartenbildformat. Diese wiederum ist eingefügt in einem Passepartout (Öffnung oben und unten).
+
+Visitenkartenbild, Vorderseite: Rechteckiges Einzelpoträt, Brunststück, Dreiviertelprofil. Der ältere Mann trägt ein Hemd, eine Fliege sowie eine Anzugsjacke. Zuunterst Inschrift.
+
+Visitenkartenbild, Rückseite: Angaben der Fotografin Katharina Weiss, in der Mitte das Markenzeichen \"Wohn- und Atelierhaus im Chalet-Stil\" der Fotografin abgebildet (Siehe Inschrift)."""@de;
+  rico:hasOrHadHolder <https://www.wikidata.org/wiki/Q27490186>;
+  rico:hasCreator <https://www.wikidata.org/wiki/Q98931764> .

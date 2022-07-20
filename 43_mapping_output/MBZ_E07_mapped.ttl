@@ -1,0 +1,65 @@
+@base <http://example.com/base/> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+
+wd:Q27490186 a rico:CorporateBody;
+  rico:hasOrHadName "Museum Burg Zug";
+  rdfs:label "Museum Burg Zug";
+  rico:hasOrHadCorporateBodyType wd:Q33506 .
+
+wd:Q33506 rdfs:label "Museum"@de .
+
+wd:Q112709824 a rico:CorporateBody;
+  rico:hasOrHadName "Theater- und Musikgesellschaft Zug";
+  rdfs:label "Theater- und Musikgesellschaft Zug";
+  rico:hasOrHadCorporateBodyType wd:Q988108 .
+
+wd:Q988108 rdfs:label "Verein"@de .
+
+<https://www.foto-ch.ch/?a=fotograph&id=22023> a rico:CorporateBody;
+  rico:hasOrHadName "Link, Ph. & E.   ";
+  rdfs:label "Link, Ph. & E.   ";
+  rico:hasOrHadCorporateBodyType wd:Q672070 .
+
+wd:Q672070 rdfs:label "Fotoatelier"@de .
+
+wd:Q2560801 a rico:Person;
+  rico:hasOrHadName "Werner Andermatt";
+  rdfs:label "Werner Andermatt";
+  rico:hasBirthDate "1916"^^xsd:date;
+  rico:hasDeathDate "2013"^^xsd:date;
+  rico:hasOrHadOccupationOfType wd:Q1028181 .
+
+wd:Q1028181 rdfs:label "Painter"@en .
+
+wd:Q98931764 a rico:Person;
+  rico:hasOrHadName "Katharina Weiss";
+  rdfs:label "Katharina Weiss";
+  rico:hasBirthDate "1834"^^xsd:date;
+  rico:hasDeathDate "1911"^^xsd:date;
+  rico:hasOrHadOccupationOfType wd:Q33231 .
+
+wd:Q33231 rdfs:label "Photographer"@en .
+
+<https://www.foto-ch.ch/?a=fotograph&id=31026> a rico:Person;
+  rico:hasOrHadName "Heinrich Augustin  Albrecht";
+  rdfs:label "Heinrich Augustin  Albrecht";
+  rico:hasBirthDate "1862"^^xsd:date;
+  rico:hasDeathDate "1913"^^xsd:date;
+  rico:hasOrHadOccupationOfType wd:Q33231 .
+
+<https://www.foto-ch.ch/?a=fotograph&id=29555> a rico:Person;
+  rico:hasOrHadName "Eduard Weiss";
+  rdfs:label "Eduard Weiss";
+  rico:hasBirthDate "1863"^^xsd:date;
+  rico:hasDeathDate "1912"^^xsd:date;
+  rico:hasOrHadOccupationOfType wd:Q33231 .
+
+wd:Q111594077 a rico:Person;
+  rico:hasOrHadName "Joseph Maria Weber-Strebel";
+  rdfs:label "Joseph Maria Weber-Strebel";
+  rico:hasBirthDate "1842"^^xsd:date;
+  rico:hasDeathDate "1933"^^xsd:date;
+  rico:hasOrHadOccupationOfType wd:Q33231 .
