@@ -1,0 +1,130 @@
+﻿Objekt/Titel;Inv.-Nr.;Pers./Körp.;Datierung;Masse;Inschr./Sign.;Mat./Technik;Beschreibung;Zustand;Reprorecht;
+Fotografie der Ostfassade der heutigen Stadt- und Kantonsbibliothek, ehemals Kornhaus, dann Kaserne;15054;Josef Maria Weber-Strebel (1842 - 1933), Fotograf/in;um 1900 (Schätzung);Objektmass (H x B x T): 16.3 x 22.3 cm;Inschrift: auf RS Stempel: J. M. Weber-Strebel, Zug;schw. - weiss Fotografie, auf Karton geklebt;Das Gebäude in der Funktion der Kaserne, mit Wachtposten davor.;Zustand: fleckig;Museum Burg Zug;
+"Gaumertafel der Nachbarschaft Unteraltstadt/Kornmarkt und der Nachbarschaft Weinmarkt; Nachbarschaftstafel, Gaumettafel ";3607;unbekannt MBZ, Maler/in;"1680 (Inschrift); 1773 (Inschrift)";Rahmenmass (H x B x T): 35.2 x 20.3 cm;"Inschrift: ""5 Der Korn Märckt"" (oben auf Vorderseite = Kornmarkt); Inschrift: ""Der Wein Märckt / 1680"" (oben auf Rückseite = Weinmarkt); Inschrift: Renoviert / 1773 (Rückseite= Weinmarkt, obere Hälfte links auf Hausfassade)";Öl / Tempera auf Holz;"Beidseitig bemalte Holztafel mit Öse zum Aufhängen.
+
+Vorderseite: Gaumertafel der Nachbarschaft Unteraltstadt/""Kornmarkt"" und Inschrift (siehe Grunddaten, Inschrift). Dargestellt ist der Kornhandel vor dem stilisiert dargestellten Kornhaus.
+
+Rückseite: Gaumertafel der Nachbarschaft ""Weinmarkt"" und Inschrift (siehe Grunddaten, Inschrift).";Zustand: gut;Museum Burg Zug;
+Fotografie der Ostfassade der heutigen Stadt- und Kantonsbibliothek, ehemals Kornhaus, dann Kaserne;15054;Josef Maria Weber-Strebel (1842 - 1933), Fotograf/in;um 1900 (Schätzung);Objektmass (H x B x T): 16.3 x 22.3 cm;Inschrift: auf RS Stempel: J. M. Weber-Strebel, Zug;schw. - weiss Fotografie, auf Karton geklebt;Das Gebäude in der Funktion der Kaserne, mit Wachtposten davor.;Zustand: fleckig;Museum Burg Zug;
+"Glasnegative der Hafnerei Keiser; Negative";15572;Hafnerei Keiser, Zug, in Gebrauch bei;1926 (gemäss Hersteller);Objektmass (H x B x T): 12.0 x 8.7 cm;;Glas;"16 Glasnegative in Originalschachtel der Firma ""Hauff-Platten"" in Zürich. Beigelegt ist eine handgeschriebene Auflistung der Bestellung (7 Reproduktionen, 10 Vergrösserungen) samt Rechnung des Herstellers. Die Glasnegative haben folgende Motive: -Rorschach (""Das Innere des Kornhauses""), -Das Post- und Gasthaus zur Krone, -5 religiöse Dastellungen, -Teilansicht einer Burg, -Darstellung einer Belagerungsschlacht.
+In Pergament-Papier eingewickelt sind folgende Motive: -Schloss Kyburg, -Regensberg, -Bauernhof bei Dietikon, -unbekannte Ortsansicht, -unbekanntes Schloss, -Frauenkloster St. Scholastiea.
+Zusätzlich dazu und auf der beigelegten Rechnung nicht erwähnt sind 3 in einen schwarzen Rahmen gefasste Ofen-Darstellungen. Diese sind mit der Angabe ""Jos. Keiser's Erben Zug"" angeschrieben.";Zustand: Gebrauchsspuren;Museum Burg Zug;
+"Postkarte, Ansichten von Zug (5 Fotografien/Postkarten); 5 Postkarten, 3 x Seegfrörni 1929 Zug, 1 x Seegfrörni 1963 Zug, 1 x Flugaufnahme Zug";4076;unbekannt MBZ;1929 - 1963 (Inschrift);"unknown formatting problem: def type = fetch('TypeVoc')
+
+def output = combine(""${type}:"", "" "", fetch('PrefixTxt'))
+
+switch (type.logicalName) {
+        
+    case ""Durchmesser"":
+    case ""Gewicht"":
+    case ""Kaliber"":
+        output = combine(output, ' ', format(fetch('DimensionNum'), '0.0'))
+        break 
+    default:
+        output = combine(output, ' ', format(fetch('FirstNum'), '0.0'))
+        output = combine(output, ' x ', format(fetch('SecondNum'), '0.0'))
+        output = combine(output, ' x ', format(fetch('ThirdNum'), '0.0'))
+        
+}
+
+output = combine(output, ' ', fetch('UnitVoc'))
+output = combine(output, ' ', fetch('SuffixTxt'))
+
+print output ?:''";"Inschrift: März 1929  Zug (Auf drei Postkarten, oben links); Inschrift: Seegfrörni 1963 (Auf einer Postkarte, mittig)";"Fotodruck; Bromsilber";"3 Fotografien/Postkarte der Seegfrörni 1929 auf dem Zugersee.
+1 Postkarte/Fotografie der Seegfrörni 1963 auf dem Zugersee.
+1 Postkarte/Fotografie mit einer Flugaufnahme von Zug.";Zustand: Gut;Museum Burg Zug;
+Fotografie, Seegfrörni in Zug (Frau Mariani) vom März 1929 (Seegfrörni 1929 in Zug);4136;unbekannt MBZ;März 1929 (Quellen);Objektmass (H x B x T): 25.0 x 37.3 cm;;"Fotodruck; Bromsilber";In braunem Holzrahmen. Druck (kein Originalfoto).;Zustand: Links ein Fixierflecken;Museum Burg Zug;
+Fotografie, Ansicht der Zuger Altstadt vom zugefrorenen See aus (Seegfrörni 1929 in Zug);11374;unbekannt MBZ;1929 (Literatur);"Bildmass: 16.7 x 23.5 cm; Rahmenmass (H x B x T): 33.7 x 40.7 cm";;Schwarzweissfoto;Teil der Zuger Altstadt mit Hotel Schiff, Zytturm und Brauerei zum Hecht vom zugefrorenen See aus, fotografiert im März 1929.;Zustand: leicht verblichen;Museum Burg Zug;
+Ansichtskarte, Familien Kleimann und Spillmann auf dem gefrorenen Zugersee (Seegfrörni 1929 in Zug);18451;unbekannt MBZ;1929 (Datiert);Objektmass (H x B x T): 8.5 x 13.5 cm;"Inschrift: ""1929 / Alois und Berta Kleimann / Kinder: Werner & Elseli / (links Coiffeur Spillmann / mit Frau und Knaben)""";"s/w-Fotografie auf Papier; Druck; Handschrift";Querrechteckige schwarzweisse Aufnahme auf cremefarbenem Papier mit schmalem Rand (rechts breit). Bildseite: Aufnahme der Familien Kleimann (rechts) und Spillmann (links) mit Kindern und Hund auf dem gefrorenen Zugersee, im Hintergrund die Stadt. Textseite: schwarzer Adresszeilenvordruck, unten links Vermerk zu den Dargestellten und Datierung in schwarzer Tinte.;"Zustand Kurz: leicht knittrig und fleckig; Zustand: leicht knittrig und fleckig";Museum Burg Zug;
+Buch, 150 Jahre Theater- und Musikgesellschaft Zug, Festschrift 1809-1959;3310;Theater- und Musikgesellschaft Zug;1959;Objektmass (H x B x T): Keine Angaben auf der Karteikarte;;Papier;Buch.;Zustand: Gut;Museum Burg Zug;
+"Fotografie, Aufführung ""Zigeunerbaron"" der Theater und Musikgesellschaft Zug";3314;"Theater- und Musikgesellschaft Zug, Abgebildete/r; Foto-Optik Grau, Zug";1959 (Datiert);Objektmass (H x B x T): 18.0 x 24.0 cm;;"Fotografie; Bromsilber";"Aufführung ""Zigeunerbaron"" der Theater und Musikgesellschaft Zug.";Zustand: Gut;Museum Burg Zug;
+Bühne im Theater Casino Zug;11728;Ph. & E. Link, Zürich (Fotoatelier);um 1910 (Schätzung);Blattmass: 19.8 x 19.7 cm;"Signatur: ""Ph. & E. Link / Zürich."" (Vorderseite, unten rechts)";Schwarzweissfoto, Neuabzug;"Ansicht der Bühne im Theater-Casino Zug, fotografiert kurz nach der Eröffnung.
+Neuer Abzug.";Zustand: gut;Museum Burg Zug;
+Zeichnung, Skizze einer sitzenden Figur von einer Aufführung der Theater- und Musikgesellschaft Zug ;18750;"Theater- und Musikgesellschaft Zug, Veranstalter/in; Werner Andermatt (1916 - 2013), Zeichner/in";späte 1940er-Jahre (Angabe der Verkäufer);"Bildmass: 50.0 x 32.7 cm; Objektmass (H x B x T): 55.6 x 38.2 cm";"Signatur: ""An / der / Matt"" (unten links auf Skizzenblatt)";"Bleistift und Aquarell auf Papier; Karton";"Hochformatige, kolorierte Skizze einer sitzenden Figur in ockergelber Hose, dunkelbrauner Jacke und mit schwarzer Schleifen am Hals, unten links Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt.
+Ursprünglich gerahmt und passepartouriert.";"Zustand: Die Zeichnung ist - wohl wegen mehreren grossen Rissen - auf einen Karton kaschiert worden; stellenweise vergilbt, Karton stellenweise leicht verschmutzt, gelber Rand aufgrund eines (ehemaligen) Passepartouts";Museum Burg Zug;
+"Zeichnung, Skizze der Jadwiga Pawlowa aus dem Stück ""Polenblut"" der Theater- und Musikgesellschaft Zug im Casino Zug";18751;"Theater- und Musikgesellschaft Zug, Veranstalter/in; Werner Andermatt (1916 - 2013), Zeichner/in";1949 (datiert);"Bildmass: 35.8 x 25.0 cm; Objektmass (H x B x T): 49.7 x 35.0 cm";"Signatur: ""An / der / Matt"" (unten rechts auf Skizzenblatt); Inschrift: ""Skizze/Jadwiga Pàwlowà / Polenblut/Casino Zug / 1949"" (auf Karton unten links ); Inschrift: ""Anna Faessler-Müller"" (auf Karton unten rechts)";"Bleistift und Aquarell auf Papier; Karton";"Hochformatige, kolorierte Skizze einer Frau in rosa-grau-schwarzem Kleid mit Hut mit grünem Schleider, ein Lorgnon in ihrer linken Hand haltend, dunkelgrau-blauer Hintergrund, Hut angestückt, unten rechts Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt, auf Karton unten links in brauner Tinte Angabe der Figur und des Theaterstücks sowie Datierung, unten rechts Name der Schauspielerin(?), auf Rückseite unten links Angabe zur Rahmung in Bleistift.
+Ursprünglich gerahmt und passepartouriert.";"29.10.2021: Zustand: Skizzenblatt ist punktuell an den Ecken und oben in der Mitte auf einen Karton geklebt worden. Der Klebstreifen der unteren linken Ecke hat sich abgelöst. stellenweise vergilbt; Karton fleckig, vergilbt und berieben, rechte untere Ecke bestossen";Museum Burg Zug;
+"Zeichnung, Skizze des Grafen Boléslaw Barànski aus dem Stück ""Polenblut"" der Theater- und Musikgesellschaft Zug im Casino Zug";18752;"Theater- und Musikgesellschaft Zug, Veranstalter/in; Werner Andermatt (1916 - 2013), Zeichner/in";14.01.1949 (datiert);"Bildmass: 32.4 x 24.9 cm; Objektmass (H x B x T): 50.0 x 34.9 cm";"Signatur: ""An / der / Matt / 14.1.49"" (unten rechts auf Skizzenblatt); Inschrift: ""Skizze z. Fig: ""Graf Boléslaw Barànski / Polenblut / Casino Zug"" (auf Karton unten links ); Inschrift: ""Franz Faessler"" (auf Karton unten rechts)";"Bleistift und Aquarell auf Papier; Karton";"Hochformatige, kolorierte Skizze eines Adligen im weinrot-gelben Gewand mit Hut und schwarzen Stiefeln, seinen rechten Arm in die Hüfte gestützt, gelber Hintergrund, unten rechts Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt, auf Karton unten links in brauner Tinte Angabe der Figur und des Theaterstücks sowie Datierung, unten rechts Name des Schauspielers(?), auf Rückseite unten links Angabe zur Rahmung in Bleistift.
+Ursprünglich gerahmt und passepartouriert.";"29.10.2021: Zustand: Das Papier ist mit einem wasserlöslichen Klebstreifen (Gummi arabicum) auf einen Karton geklebt. Die unteren beiden Klebstreifen haben sich abgelöst. Skizzenblatt stellenweise verschmutzt und einige kleine Flecken, linke untere Ecke geknickt; Karton fleckig, vergilbt und mit zahlreichen Löchern von Bostitch-Klammern am Rand";Museum Burg Zug;
+Zeichnung, Skizze einer Strassenszene mit uniformiertem Reiter, von einer Aufführung der Theater- und Musikgesellschaft Zug;18753;"Theater- und Musikgesellschaft Zug, Veranstalter/in; Werner Andermatt (1916 - 2013), Zeichner/in";späte 1940er-Jahre (Angabe der Verkäufer);"Bildmass: 50.1 x 32.3 cm; Objektmass (H x B x T): 55.9 x 38.5 cm";"Signatur: ""An / der / Matt"" (unten rechts auf Skizzenblatt)";"Bleistift und Aquarell auf Papier; Karton";"Hochformatige, kolorierte Skizze eines rot uniformiertem Reiters auf einem dunkelbraunen Pferd auf einer Strasse mit Laternen, links ein rothaariger Mann in grüner Schürze, zum Reiter aufschauend, im Vordergrund rechts eine Dame im blaugrünen Kleid in Rückenansicht, im Hintergrund Häuserzeile, unten rechts Künstlersignatur in Bleistift. Skizze auf weissen Karton aufgeklebt.
+Ursprünglich gerahmt und passepartouriert.";"29.10.2021: Zustand: Die Zeichnung ist - wohl aufgrund mehrerer grosser Risse - auf einen Karton kaschiert worden; stellenweise vergilbt, Karton stellenweise leicht verschmutzt";Museum Burg Zug;
+Bühne im Theater Casino Zug;11728;Ph. & E. Link, Zürich (Fotoatelier);um 1910 (Schätzung);Blattmass: 19.8 x 19.7 cm;"Signatur: ""Ph. & E. Link / Zürich."" (Vorderseite, unten rechts)";Schwarzweissfoto, Neuabzug;"Ansicht der Bühne im Theater-Casino Zug, fotografiert kurz nach der Eröffnung.
+Neuer Abzug.";Zustand: gut;Museum Burg Zug;
+Porträt Anna Bossard-Schwerzmann (1862-1923);9102;Katharina Weiss (1834 - 1911);um 1900 (Schätzung);Blattmass: 10.5 x 6.3 cm;"Signatur: PHOTOGRAPHIE VON JGFR. KATHR. WEISS.  ZUG, Bahnhofs-Strasse.; Inschrift: Frau Anna Bossard geb. Schwerzmann, Hotel Ochsen Zug, (ab Postplatz)";;Porträt Anna Bossard-Schwerzmann (1862-1923), Gattin des Ochsenwirts in Zug.;Zustand: abgenutzt;Museum Burg Zug;
+4 Porträtfotos (Visitenkartenbilder);9506;Katharina Weiss (1834 - 1911);2. Hälfte 19. Jh. (Quellen);Bildmass: je 10.5 x 6.4 cm;Inschrift: JGFR. KATHR. WEISS  ZUG.;Fotografie auf Karton;"- 2 ovale schwarzweisse Damenbrustporträts, aufgezogen auf Karton im Visitenkartenbildformat
+- 1 schwarzweisses Porträtfoto eines Jünglings; auf der Rückseite handschriftliche Angabe ""Student Lampert""
+- 1 schwarzweisses Doppelporträt eines Ehepaars, verblichen.";Zustand: fleckig;Museum Burg Zug;
+3 Fotos Anna Lucia Kerckhoffs (1889-1894);10605;Katharina Weiss (1834 - 1911);1894 (Schätzung);"Rahmenmass (H x B x T): 10.5 x 6.8 cm; Bildmass: 8.7 x 5.6 cm";"Signatur: ""JGFR. KATHR. WEISS""";Fotografie;"3 fotografische Porträts von Anna Lucia Kerchhoff als kleines Mädchen; zwei davon identisch von Katharina Weiss, das dritte ohne Bezeichnung, aber hinter Glas in einem Stellrahmen gerahmt.";Zustand: vergilbt;Museum Burg Zug;
+"Fotos diverser Schweizer und europäischer Fotografen (Leidbilchen, Porträtfotos, Erinnerungsbilder, Landschaften und Gebäude) und Postkarten aus Familie Spillmann-Waller, dazugehörige Alben; Totenbildchen, Totenbild, Leidbild, Helgeli";11623;"Katharina Weiss (1834 - 1911), Fotograf/in; August Heinrich  Albrecht (1862 - 1913), Fotograf/in; Eduard Weiss (1863 - 1912), Fotograf/in";1860 - 1950 (Schätzung);;;"Schwarz-weiss Fotografie auf Karton aufgeklebt; mit Leder eingebundene und mit Metallschlössern versehene Alben";"Porträtfotos diverser Fotografen: u.a.
+- Eduard Weiss, Zug
+- A. Albrecht, Zug
+- Johann Grau, Zug
+- Ateliers Bürgi, Unter-Ägeri
+- Jules Bonnet, Luzern
+- S. Vogelsanger, Basel
+- Gebrüder Taeschler, Hamburg, Edinburg u.a.
+- Mueller & Vanoni, Herisau
+- Emil Vollneweider, Bern
+- F. Solza, Genf
+- C. Ruf, Basel
+- F. Brandseph
+- E. Gassler, Zürich
+- J. Ganz, Zürich
+- Johann Frey, Luzern
+- J. J. Walder
+- Ch. Meyer, St. Gallen
+- J. Jungmann, Basel
+- Louis Zumbühl, Stans, Schwyz
+- J. Jeanneret, Montreux
+
+Die Alben-Fotos sind auf Kärtchen aufgeklebt, auf deren Rückseite zumeist die jeweilige Adresse des Fotoateliers steht. Die Fotos werden von unten oder oben in die Albenseiten eingeschoben, die doppelseitig zu verwenden sind und offene Fenster für die Porträts haben. Die Fenster haben häufig eine gemalte oder geprägte Umrandung. Aus konservatorischen Gründen Trennung der Fotos von den Alben.
+
+Die Totengedenkbilder zeigen das Bildnis des Verstorbenen, Lebensdaten und Geleitworte. Die Bildnisse sind entweder Fotos oder Zeichnungen.
+Das dunkelbraune, querformatige, mit einem geprägten Lederband gebundene Album enthielt Helgelis. Innenseite aus hellbraunem Textil. Einlageblätter aus olivgrünem, dickem Papier. Totenbilder wurden mit Eckkleber arretiert.
+
+Alle Alben mit ornamentaler Prägung und Bemalung.
+
+Die Fotos und Helgelis stammen aus dem Haushalt von Johann Ernst (1878 - 1965) und Luise Sophie Spillmann-Waller (1879 - 1947), den Grosseltern des Donators.";Zustand bei Eingang: Fotos mit z.T. starken Vergilbungs- und Zersetzungsspuren. Alben tw. mit starken Gebrauchsspuren. (3.2012).;;
+Dokumentation zur Familie Arnold ab Schwandegg: Fotoporträt Marie Arnold (1856-1926);13806;Katharina Weiss (1834 - 1911), Fotograf/in;um 1870 (Schätzung);Objektmass (H x B x T): 10.3 x 6.1 cm;"Inschrift: auf Rückseite: ""Photographischs Atelier JFr. Kathr. Weiss, Zug"", in Handschrift: ""Meine Mamma noch ledig auf Schloss Schwandegg Marie Arnold"", ""[...] Frau Zürcher-Arnold Löwen Menzingen Fr. Fridy? Hüssler-Zürcher""";Fotografie auf Karton geklebt;Fotokarte mit Ganzkörperporträt der Marie Arnold.;Zustand: fleckig;Museum Burg Zug;
+Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Porträt des Kunstmalers Beat Jakob Stocker, fotografiertes Gemälde;13852;Katharina Weiss (1834 - 1911), Fotograf/in;2. Hälfte 19. Jh. (Schätzung);Objektmass (H x B x T): max. 10.2 x 6.5 cm;Signatur: Photographie Kath. Weiss Koller-Mühle Zug;Fotografien auf Karton geklebt;"Porträt des Beat Jakob Stocker (1786-1866), Kunstmaler in Allenwinden. Vater von Josefa Crescentia Zürcher-Stocker (1824-1904).
+Katharina Weiss fotografierte das Gemälde Inv. Nr. 11172. Die Fotografie ist in zweifacher Ausführung vorhanden, wobei die ältere auf der Rückseite folgende Angaben aufweist: In Schwarz gedruckt: ""Photographie Kath. Weiss Koller-Mühle Zug."" und handgeschrieben: ""Stocker v. Allenswinden"".
+Auf dem jüngeren Foto steht in goldener Farbe auf der Rückseite: ""Photographisches Atelier von Ffr. Khtr. Weiss Zug.""
+
+Die Fotos zeigen Stockers Brustporträt in ovalem Ausschnitt.
+Das Bild klebt auch auf der Totentafel Inv. Nr. 13792.";"Zustand bei Eingang: Das ältere Foto ist gelblich, beide Fotos haben Flecken. (11.2009); Zustand: Gebrauchspuren";Museum Burg Zug;
+Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Ganzkörperporträt eine Mannes;13854;Katharina Weiss (1834 - 1911), Fotograf/in;2. Hälfte 19. Jh. (Schätzung);"Objektmass (H x B x T): 16.5 x 10.7 cm; Objektmass (H x B x T): 10.4 x 6.2 cm";"Signatur: CATH. WEISS  ZUG; Inschrift: Auf der Vorderseite des grossen Fotos: ""CATH. WEISS""; auf den Rückseiten des kleineren Fotos: ""PHOTOGRAPHIE VON JGFR. KATHR. WEISS"", ""ZUG, Bahnhofstrasse""";Fotografien auf Karton geklebt;"Foto eines stehenden Mannes mit Zylinder und  geschulteter Tasche, der ein Fernglas in seinen Händen hält. Neben ihm steht ein Schirm. Der Mann possiert vor einer Bergkulisse.
+Das Foto liegt in dreifacher Ausführung vor, in zwei verschiedenen Formaten.
+Auf der Rückseite des kleinen Fotos liegt die Inschrift um eine Illustration, die das Fotoatelier der Katharina Weiss zeigt. (Das Haus ist beschriftet).
+
+Auf einem der kleinen Fotos steht auf der Rückseite von Hand geschrieben: ""zu Grossvater"".";Zustand: fleckig;Museum Burg Zug;
+Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Foto einer unbekannten Frau;13863;Katharina Weiss (1834 - 1911), Fotograf/in;2. Hälfte 19. Jh. (Schätzung);Objektmass (H x B x T): 10.1 x 5.9 cm;"Signatur: Jfr. Kathr. Weiss Zug; Inschrift: Rückseite: ""Photographisches Atelier Jfr. Kathr. Weiss Zug""";Fotografie auf Karton geklebt;Foto einer sitzenden Frau mit Haube.;Zustand: Gebrauchspuren;Museum Burg Zug;
+Dokumentation zur Familie Zürcher ab Löwen in Menzingen: Foto eines unbekannten Mannes;13865;Katharina Weiss (1834 - 1911), Fotograf/in;2. Hälfte 19. Jh. (Schätzung);Objektmass (H x B x T): 10.2 x 6.5 cm;"Signatur: Kath. Weiss Koller-Mühle Zug; Inschrift: Rückseite: ""Photographie Kath. Weiss Koller-Mühle Zug.""";Fotografie auf Karton geklebt;Foto eines unbekannten Mannes mit Schnauz und Kinnbart.;Zustand: fleckig;Museum Burg Zug;
+Fotografie: Ruine Wildenburg;15051;Katharina Weiss (1834 - 1911), Fotograf/in;2. Hälfte 19. Jh. (Schätzung);Objektmass (H x B x T): 16.7 x 10.8 cm;Inschrift: Catharina Weiss Bahnhofstrasse Zug;schw.-weiss Fotografie, aufgeklebt auf Karton;Leicht grünliche Fotografie der Ruine Wildenburg, die überwachsen ist, mit drei posierenden Männern.;Zustand: etwas vergilbt;Museum Burg Zug;
+4 Porträtfotografien: Familie Glutz-Spillmann, Cham (Visitenkartenbilder);15223;Katharina Weiss (1834 - 1911), Fotograf/in;Anfang 20. Jh. (Mündliche / schriftliche Ueberlieferung);Objektmass (H x B x T): 10.0 x 6.5 cm;Inschrift: 2x J.GANZ, 1x Eduard Weiss, 1x JGFR. KATHR. WEISS;Fotografie auf Karton;"Vier schwarz-weiss Portraitfotografien von der Familie Glutz-Spillmann in Cham. 3x Büsten-Fotografien, 1x ganze Person.
+Die Fotografien sind aufgezogen auf Karton,  mit Visitenkartenbildformat.
+
+- Frau Louise Glutz-Spillmann, Cham
+- Herr Hauptmann Glutz, Cham (Gatte von Tante Louise)
+- Paul Glutz, Cham (Sohn von Tante Louise, gestorben im Januar 1957 in Zürich, beerdigt in Zug
+- Max Glutz, Cham (Sohn von Tante, Bruder von Paul Glutz in Zürich)
+
+Auf der Rückseite ist jeweils die teilweise die Adresse des Fotografen angegeben:
+- ""J. GANZ Photographisches ATELIER ZÜRICH Bahnhofstrasse 40, Filiale BRÜSSEL. Rue de l'Ecuyer 38""
+- ""PHOTOGRAPHIE von JGFR. KATHR. WEISS. ZUG, Bahnhofs-Strasse""";Zustand: gut;Museum Burg Zug;
+Carte de visite, Schreiner Alois Kleimann (1842-?);18441;Katharina Weiss (1834 - 1911), Fotograf/in;1872 - 1882 (Schätzung);Rahmenmass (H x B x T): 10.0 x 6.3 cm;"Signatur: ""Photographie / von / Jgfr. Kathr. Weiss / in / Zug [...]""; Inschrift: ""Alois Kleimann / Vater / geb. 3. Juni 1842"", ""No 556"" u.a.";"s/w-Fotografie; Karton, Druck";Hochrechteckige sepiafarbene Aufnahme auf beiger Karte, Schreiner Alois Kleimann im Anzug mit heller Hose und Weste und dunklem Jackett, stehend vor einem Tisch mit Stuhl, seine linke Hand auf den Tisch gestützt, rechts ein Vorhang, auf Rückseite gedrucktes rotes Firmenzeichen der Fotografin, oben handschriftlicher Vermerk zum Dargestellten mit Kugelschreiber, unten in Bleistift Fotonummer.;"Zustand Kurz: verschmutzt; Zustand: verschmutzt";Museum Burg Zug;
+"Fotografie, Porträt eines jungen Mannes; Visitenkartenbild, Carte de visite";18486;Katharina Weiss (1834 - 1911), Fotograf/in;1866 - 1872 (Schätzung gemäss fehlendem Markenzeichen Atelierhaus im Chalet-Stil);"Objektmass (H x B x T): Porträt inkl. Passepartout 14.4 x 11.2 x 0.2 cm; Bildmass: 10.1 x 6.3 x 0.1 cm";"Inschrift: ""Photographie / von / JGFR.KATHR.WEISS [Auf Spruchband notiert] / Bahnhofs Str. / ZUG"" (Visitenkartenbild, Rückseite mittig); Inschrift: No [keine Nummer notiert, leer] / Die Platte bleibt zum Nachbestellen / aufbewahrt. (Visitenkartenbild, Rüc";Fotografie auf Karton;"Ovale, schwarzweisse Poträtaufnahme eines jungen Mannes (Person unbekannt), aufgezogen auf Karton im Visitenkartenbildformat. Diese wiederum ist eingefügt in einem Passepartout (Öffnung oben und unten).
+
+Visitenkartenbild, Vorderseite: Ovales Einzelpoträt, Bruststück, Dreiviertelprofil. Der junge Mann trägt einen Schnurrbart, ein Hemd, Fliege und eine Anzugsjacke.
+
+Visitenkartenbild, Rückseite: Angaben der Fotografin Katharina Weiss, verziert mit Spruchband und Blumenranken (Siehe Inschrift).";07.08.2020: Zustand: Fleckig, vergilbt (vor allem das Passepartout), 2 Risse auf dem Passepartout (oben und unten);Museum Burg Zug;
+"Fotografie, Porträt eines Kindes; Visitenkartenbild, Carte de visite";18487;Katharina Weiss (1834 - 1911), Fotograf/in;nach 1872 (Quelle: Bildmotiv Chalet auf der Rückseite der Visitenkarte. Bezog sie 1872 und arbeitete dort bis zu ihrem Tod 1911);"Objektmass (H x B x T): Porträt inkl. Passepartout 14.4 x 11.2 x 0.2 cm; Bildmass: 10.5 x 6.3 x 0.1 cm";"Inschrift: JGFR. KATHR. WEISS ZUG. (Visitenkartenbild, Vorderseite unten); Inschrift: No 4204. (Visitenkartenbild, Rückseite oben); Inschrift: PHOTOGRAPHIE VON JGFR. KATHR. WEISS. / 
+[Ovales Bildmotiv: Es handelt sich um das Wohn- und Atelierhaus im Chale";Fotografie auf Karton;"Rechteckige, schwarzweisse Poträtaufnahme eines Kindes (Person unbekannt), aufgezogen auf Karton im Visitenkartenbildformat. Diese wiederum ist eingefügt in einem Passepartout (Öffnung oben und unten).
+
+Visitenkartenbild, Vorderseite: Rechteckiges Einzelpoträt, Ganzfigur, Dreiviertelprofil. Das Kind (Sehr wahrscheinlich ein Mädchen) trägt ein längs gestreiftes Rock-Kleid, stützt sich mit der rechten Hand auf einem Steinbrocken ab, in der linken Hand hält es einen kleinen Korb. Im Hintergrund ist eine Berglandschaft ersichtlich. Zuunterst Inschrift.
+
+Visitenkartenbild, Rückseite: Angaben der Fotografin Katharina Weiss, in der Mitte das Markenzeichen ""Wohn- und Atelierhaus im Chalet-Stil"" der Fotografin abgebildet (Siehe Inschrift).";07.08.2020: Zustand: Fleckig, vergilbt (vor allem das Passepartout);Museum Burg Zug;
+"Fotografie, Porträt eines älteren Mannes; Visitenkartenbild, Carte de visite";18488;Katharina Weiss (1834 - 1911), Fotograf/in;nach 1872 (Quelle: Bildmotiv Chalet auf der Rückseite der Visitenkarte. Bezog sie 1872 und arbeitete dort bis zu ihrem Tod 1911);"Objektmass (H x B x T): Porträt inkl. Passepartout 14.4 x 11.2 x 0.2 cm; Bildmass: 10.5 x 6.3 x 0.1 cm";"Inschrift: JGFR. KATHR. WEISS ZUG. (Visitenkartenbild, Vorderseite unten); Inschrift: No [Keine Nummer notiert, leer] (Visitenkartenbild, Rückseite oben); Inschrift: PHOTOGRAPHIE VON JGFR. KATHR. WEISS. / [Ovales Bildmotiv: Es handelt sich um das Wohn- un";Fotografie auf Karton;"Rechteckige, schwarzweisse Poträtaufnahme eines älteren Mannes (Person unbekannt), aufgezogen auf Karton im Visitenkartenbildformat. Diese wiederum ist eingefügt in einem Passepartout (Öffnung oben und unten).
+
+Visitenkartenbild, Vorderseite: Rechteckiges Einzelpoträt, Brunststück, Dreiviertelprofil. Der ältere Mann trägt ein Hemd, eine Fliege sowie eine Anzugsjacke. Zuunterst Inschrift.
+
+Visitenkartenbild, Rückseite: Angaben der Fotografin Katharina Weiss, in der Mitte das Markenzeichen ""Wohn- und Atelierhaus im Chalet-Stil"" der Fotografin abgebildet (Siehe Inschrift).";07.08.2020: Zustand: Fleckig, vergilbt (vor allem das Passepartout). Visitenkartenbild Vorderseite: Schwarze Verunreinigungen in der Kopfgegend. Visitenkartenbild, Rückseite: Oben am Rand etwas beschädigt;Museum Burg Zug;
