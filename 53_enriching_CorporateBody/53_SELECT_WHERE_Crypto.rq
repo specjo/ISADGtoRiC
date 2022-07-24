@@ -1,0 +1,11 @@
+prefix rico: <https://www.ica.org/standards/RiC/ontology#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?o ?p where 
+{
+    ?s ?p ?o.
+    ?s ?p2 rico:RecordSet.
+    FILTER CONTAINS (?o, "Crypto")
+}
+
+ORDER BY ?o
