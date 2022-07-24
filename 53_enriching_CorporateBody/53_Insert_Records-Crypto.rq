@@ -1,0 +1,25 @@
+
+PREFIX : <http://example.com/base/>
+prefix rico: <https://www.ica.org/standards/RiC/ontology#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+INSERT DATA 
+{
+:E03_220423	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_144476	rico:hasOrHadMainSubject	<https://www.zefix.ch/de/search/entity/list/firm/1333057>	.
+:E03_144477	rico:hasOrHadMainSubject	<https://www.zefix.ch/de/search/entity/list/firm/1333057>	.
+:E03_144478	rico:hasOrHadMainSubject	<https://www.zefix.ch/de/search/entity/list/firm/1333057>	.
+:B_E03_82710	rico:hasOrHadMainSubject	wd:Q665539	.
+:B_E03_82710	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_144476	rico:hasOrHadSubject	wd:Q665539	.
+:E03_144476	rico:hasOrHadSubject	<https://www.zefix.ch/de/search/entity/list/firm/1333057>	.
+:E03_144476	rico:hasOrHadSubject	<https://www.zefix.ch/de/search/entity/list/firm/1335789>	.
+:E03_314301	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_313205	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_313181	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_220425	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_100910658099	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_ZUG00100001357	rico:hasOrHadMainSubject	wd:Q665539	.
+:E03_108224520099	rico:hasOrHadMainSubject	wd:Q665539	.
+
+}
