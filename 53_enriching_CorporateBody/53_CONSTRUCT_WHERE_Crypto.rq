@@ -1,0 +1,46 @@
+
+PREFIX rank: <http://www.ontotext.com/owlim/RDFRank#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+
+CONSTRUCT 
+
+{
+    ?node ?edge ?rs1.
+    ?node ?p2 ?c. 
+    ?c ?p3 ?rs2. 
+    ?rs1 rico:hasOrHadHolder ?z1.
+    ?rs2 rico:hasOrHadHolder ?z2.
+    ?rs1 ?p4 ?s1.
+    ?rs2 ?p5 ?s2.
+    
+} 
+
+WHERE 
+
+{
+    {
+        #Querying for any RecordSet object with any predicate to the subject CryptoAG
+        ?rs1 ?edge ?node. 
+        ?rs1 rdf:type rico:RecordSet. 
+
+        #Querying for any corporate bodies related to the starting node Crypto AG
+        ?node ?p2 ?c.
+        ?c rdf:type rico:CorporateBody.
+
+        #Querying for RecordSets related to the successor corporate bodies of Crypto AG
+        ?rs2 ?p3 ?c. 
+        ?rs2 rdf:type rico:RecordSet.
+
+        #Querying for holders of all Records
+        ?rs1 rico:hasOrHadHolder ?z1.
+        ?rs2 rico:hasOrHadHolder ?z2.
+
+        ##Querying for Agents related to the RecordSets
+        ?rs1 ?p4 ?s1.
+        ?s1 rdf:type rico:Agent.
+        ?rs2 ?p5 ?s2.
+        ?s2 rdf:type rico:Agent.
+    }  
+    
+} 
